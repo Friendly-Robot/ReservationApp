@@ -1,3 +1,3 @@
-import ReservationsList from './ReservationsList';
+import Reservations from './Reservations';
 
-export default ReservationsList;
+export default Reservations;

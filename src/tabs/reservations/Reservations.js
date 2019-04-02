@@ -6,7 +6,7 @@ import React, { useEffect, useState } from 'react';
 import { ScrollView, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
 
 import { ApolloProvider, graphql } from 'react-apollo';
-import reservationQuery from '../../graphql/queries';
+import reservationQuery from '../../graphql/queries/reservationQuery';
 
 import LoadingIndicator from '../../common/LoadingIndicator';
 import ReservationsHeader from './ReservationsHeader';

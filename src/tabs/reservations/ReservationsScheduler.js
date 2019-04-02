@@ -6,7 +6,7 @@ import React, { useState } from 'react';
 import { Modal, StyleSheet, ScrollView, Text } from 'react-native';
 
 import { Mutation } from 'react-apollo';
-import { addReservation } from '../../graphql/mutations';
+import createReservation from '../../graphql/mutations/createReservations';
 import reservationQuery from '../../graphql/queries/reservationQuery';
 
 import HeaderTitle from '../../common/HeaderTitle';
@@ -43,8 +43,8 @@ export default ReservationsScheduler = ({ closeModal = () => {} }: props) => {
         buttonValue={'-'}
         title={'New Reservation'}
       />
-      <Mutation mutation={addReservation} refetchQueries={[{ query: reservationQuery }]}>
-        {(addReservationMutation, { data }) => (
+      <Mutation mutation={createReservation} refetchQueries={[{ query: reservationQuery }]}>
+        {(createReservationMutation, { data }) => (
           <ScrollView
             contentContainerStyle={styles.container}
             keyboardShouldPersistTaps={'never'}
@@ -75,7 +75,7 @@ export default ReservationsScheduler = ({ closeModal = () => {} }: props) => {
             />
             <ButtonAction
               onPress={() => {
-                addReservationMutation({
+                createReservationMutation({
                   variables: {
                     id: `${Math.random()}`,
                     hotelName: hotel,

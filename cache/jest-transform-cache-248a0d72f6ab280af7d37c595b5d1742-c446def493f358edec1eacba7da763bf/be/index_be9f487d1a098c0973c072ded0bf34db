@@ -1,0 +1,2 @@
+86ff71c2618550fd9fcffbb18f8e2135
+module.exports = require('./lib/Observable.js').Observable;

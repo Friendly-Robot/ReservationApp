@@ -1,0 +1,7 @@
+1ca532202eab105012d728649f9d9aea
+'use strict';
+
+module.exports.POSITION_AT_SHORTHAND = {
+  first: 0,
+  second: 1
+};

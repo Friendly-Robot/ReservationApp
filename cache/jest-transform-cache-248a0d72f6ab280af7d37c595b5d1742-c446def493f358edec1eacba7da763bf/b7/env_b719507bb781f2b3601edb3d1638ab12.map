@@ -1,0 +1,1 @@
+{"version":3,"sources":["env.js"],"names":["version","graphqlURL"],"mappings":"AAAA;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;eAEe;AACbA,EAAAA,OAAO,EAAE,CADI;AAEbC,EAAAA,UAAU,EAAE;AAFC,C","sourcesContent":["\"use strict\";\n\nexport default {\n  version: 1,\n  graphqlURL: \"https://us1.prisma.sh/public-luckox-377/reservation-graphql-backend/dev\",\n};\n"]}

@@ -1,0 +1,275 @@
+83ac6ebc0a6aaba5a66e2c84de17af7e
+var cov_15zyrigsk2 = function () {
+  var path = "/Users/andy/Desktop/Upwork/ReservationApp/src/common/HeaderTitle.js";
+  var hash = "107683248446b2d4f319beeb004ed6dc7723fa79";
+
+  var Function = function () {}.constructor;
+
+  var global = new Function("return this")();
+  var gcv = "__coverage__";
+  var coverageData = {
+    path: "/Users/andy/Desktop/Upwork/ReservationApp/src/common/HeaderTitle.js",
+    statementMap: {
+      "0": {
+        start: {
+          line: 17,
+          column: 2
+        },
+        end: {
+          line: 27,
+          column: 9
+        }
+      },
+      "1": {
+        start: {
+          line: 30,
+          column: 15
+        },
+        end: {
+          line: 49,
+          column: 2
+        }
+      }
+    },
+    fnMap: {
+      "0": {
+        name: "(anonymous_0)",
+        decl: {
+          start: {
+            line: 16,
+            column: 15
+          },
+          end: {
+            line: 16,
+            column: 16
+          }
+        },
+        loc: {
+          start: {
+            line: 17,
+            column: 2
+          },
+          end: {
+            line: 27,
+            column: 9
+          }
+        },
+        line: 17
+      },
+      "1": {
+        name: "(anonymous_1)",
+        decl: {
+          start: {
+            line: 16,
+            column: 32
+          },
+          end: {
+            line: 16,
+            column: 33
+          }
+        },
+        loc: {
+          start: {
+            line: 16,
+            column: 38
+          },
+          end: {
+            line: 16,
+            column: 40
+          }
+        },
+        line: 16
+      }
+    },
+    branchMap: {
+      "0": {
+        loc: {
+          start: {
+            line: 16,
+            column: 18
+          },
+          end: {
+            line: 16,
+            column: 40
+          }
+        },
+        type: "default-arg",
+        locations: [{
+          start: {
+            line: 16,
+            column: 32
+          },
+          end: {
+            line: 16,
+            column: 40
+          }
+        }],
+        line: 16
+      },
+      "1": {
+        loc: {
+          start: {
+            line: 16,
+            column: 42
+          },
+          end: {
+            line: 16,
+            column: 58
+          }
+        },
+        type: "default-arg",
+        locations: [{
+          start: {
+            line: 16,
+            column: 56
+          },
+          end: {
+            line: 16,
+            column: 58
+          }
+        }],
+        line: 16
+      },
+      "2": {
+        loc: {
+          start: {
+            line: 16,
+            column: 60
+          },
+          end: {
+            line: 16,
+            column: 70
+          }
+        },
+        type: "default-arg",
+        locations: [{
+          start: {
+            line: 16,
+            column: 68
+          },
+          end: {
+            line: 16,
+            column: 70
+          }
+        }],
+        line: 16
+      },
+      "3": {
+        loc: {
+          start: {
+            line: 18,
+            column: 5
+          },
+          end: {
+            line: 25,
+            column: 25
+          }
+        },
+        type: "binary-expr",
+        locations: [{
+          start: {
+            line: 18,
+            column: 5
+          },
+          end: {
+            line: 18,
+            column: 25
+          }
+        }, {
+          start: {
+            line: 19,
+            column: 6
+          },
+          end: {
+            line: 25,
+            column: 25
+          }
+        }],
+        line: 18
+      }
+    },
+    s: {
+      "0": 0,
+      "1": 0
+    },
+    f: {
+      "0": 0,
+      "1": 0
+    },
+    b: {
+      "0": [0],
+      "1": [0],
+      "2": [0],
+      "3": [0, 0]
+    },
+    _coverageSchema: "43e27e138ebf9cfc5966b082cf9a028302ed4184"
+  };
+  var coverage = global[gcv] || (global[gcv] = {});
+
+  if (coverage[path] && coverage[path].hash === hash) {
+    return coverage[path];
+  }
+
+  coverageData.hash = hash;
+  return coverage[path] = coverageData;
+}();
+
+var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireDefault(require("react"));
+
+var _reactNative = require("react-native");
+
+var _theme = _interopRequireDefault(require("../theme"));
+
+var _default = function _default(_ref) {
+  var _ref$buttonPress = _ref.buttonPress,
+      buttonPress = _ref$buttonPress === void 0 ? (cov_15zyrigsk2.b[0][0]++, function () {
+    cov_15zyrigsk2.f[1]++;
+  }) : _ref$buttonPress,
+      _ref$buttonValue = _ref.buttonValue,
+      buttonValue = _ref$buttonValue === void 0 ? (cov_15zyrigsk2.b[1][0]++, '') : _ref$buttonValue,
+      _ref$title = _ref.title,
+      title = _ref$title === void 0 ? (cov_15zyrigsk2.b[2][0]++, '') : _ref$title;
+  cov_15zyrigsk2.f[0]++;
+  cov_15zyrigsk2.s[0]++;
+  return _react.default.createElement(_reactNative.View, {
+    style: styles.container
+  }, (cov_15zyrigsk2.b[3][0]++, Boolean(buttonValue)) && (cov_15zyrigsk2.b[3][1]++, _react.default.createElement(_reactNative.TouchableOpacity, {
+    activeOpacity: 0.8,
+    hitSlop: _theme.default.HITSLOP_LARGE,
+    onPress: buttonPress
+  }, _react.default.createElement(_reactNative.Text, {
+    style: [styles.title, styles.buttonValue]
+  }, buttonValue))), _react.default.createElement(_reactNative.Text, {
+    style: styles.title
+  }, title));
+};
+
+exports.default = _default;
+var styles = (cov_15zyrigsk2.s[1]++, _reactNative.StyleSheet.create({
+  buttonContainer: {
+    marginLeft: _theme.default.BORDER_PADDING_HORIZONTAL
+  },
+  buttonValue: {
+    fontSize: 35
+  },
+  container: {
+    alignItems: 'center',
+    backgroundColor: _theme.default.COLOR_WHITE,
+    flexDirection: 'row',
+    height: 65,
+    zIndex: 10
+  },
+  title: {
+    color: _theme.default.COLOR_PRIMARY,
+    fontSize: _theme.default.FONT_SIZE_LARGE,
+    marginLeft: _theme.default.BORDER_PADDING_HORIZONTAL
+  }
+}));
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkhlYWRlclRpdGxlLmpzIl0sIm5hbWVzIjpbImJ1dHRvblByZXNzIiwiYnV0dG9uVmFsdWUiLCJ0aXRsZSIsInN0eWxlcyIsImNvbnRhaW5lciIsIkJvb2xlYW4iLCJ0aGVtZSIsIkhJVFNMT1BfTEFSR0UiLCJTdHlsZVNoZWV0IiwiY3JlYXRlIiwiYnV0dG9uQ29udGFpbmVyIiwibWFyZ2luTGVmdCIsIkJPUkRFUl9QQURESU5HX0hPUklaT05UQUwiLCJmb250U2l6ZSIsImFsaWduSXRlbXMiLCJiYWNrZ3JvdW5kQ29sb3IiLCJDT0xPUl9XSElURSIsImZsZXhEaXJlY3Rpb24iLCJoZWlnaHQiLCJ6SW5kZXgiLCJjb2xvciIsIkNPTE9SX1BSSU1BUlkiLCJGT05UX1NJWkVfTEFSR0UiXSwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7OztBQUlBOztBQUNBOztBQUVBOztlQVFlLHdCQUNiO0FBQUEsOEJBRGdCQSxXQUNoQjtBQUFBLE1BRGdCQSxXQUNoQiw0REFEOEIsWUFBTTtBQUFBO0FBQUUsR0FDdEM7QUFBQSw4QkFEd0NDLFdBQ3hDO0FBQUEsTUFEd0NBLFdBQ3hDLDREQURzRCxFQUN0RDtBQUFBLHdCQUQwREMsS0FDMUQ7QUFBQSxNQUQwREEsS0FDMUQsc0RBRGtFLEVBQ2xFO0FBQUE7QUFBQTtBQUFBLHNDQUFDLGlCQUFEO0FBQU0sSUFBQSxLQUFLLEVBQUVDLE1BQU0sQ0FBQ0M7QUFBcEIsS0FDRywyQkFBQUMsT0FBTyxDQUFDSixXQUFELENBQVAsZ0NBQ0MsNkJBQUMsNkJBQUQ7QUFDRSxJQUFBLGFBQWEsRUFBRSxHQURqQjtBQUVFLElBQUEsT0FBTyxFQUFFSyxlQUFNQyxhQUZqQjtBQUdFLElBQUEsT0FBTyxFQUFFUDtBQUhYLEtBS0UsNkJBQUMsaUJBQUQ7QUFBTSxJQUFBLEtBQUssRUFBRSxDQUFDRyxNQUFNLENBQUNELEtBQVIsRUFBZUMsTUFBTSxDQUFDRixXQUF0QjtBQUFiLEtBQW1EQSxXQUFuRCxDQUxGLENBREQsQ0FESCxFQVNFLDZCQUFDLGlCQUFEO0FBQU0sSUFBQSxLQUFLLEVBQUVFLE1BQU0sQ0FBQ0Q7QUFBcEIsS0FBNkJBLEtBQTdCLENBVEY7QUFVTyxDOzs7QUFHVCxJQUFNQyxNQUFNLDJCQUFHSyx3QkFBV0MsTUFBWCxDQUFrQjtBQUMvQkMsRUFBQUEsZUFBZSxFQUFFO0FBQ2ZDLElBQUFBLFVBQVUsRUFBRUwsZUFBTU07QUFESCxHQURjO0FBSS9CWCxFQUFBQSxXQUFXLEVBQUU7QUFDWFksSUFBQUEsUUFBUSxFQUFFO0FBREMsR0FKa0I7QUFPL0JULEVBQUFBLFNBQVMsRUFBRTtBQUNUVSxJQUFBQSxVQUFVLEVBQUUsUUFESDtBQUVUQyxJQUFBQSxlQUFlLEVBQUVULGVBQU1VLFdBRmQ7QUFHVEMsSUFBQUEsYUFBYSxFQUFFLEtBSE47QUFJVEMsSUFBQUEsTUFBTSxFQUFFLEVBSkM7QUFLVEMsSUFBQUEsTUFBTSxFQUFFO0FBTEMsR0FQb0I7QUFjL0JqQixFQUFBQSxLQUFLLEVBQUU7QUFDTGtCLElBQUFBLEtBQUssRUFBRWQsZUFBTWUsYUFEUjtBQUVMUixJQUFBQSxRQUFRLEVBQUVQLGVBQU1nQixlQUZYO0FBR0xYLElBQUFBLFVBQVUsRUFBRUwsZUFBTU07QUFIYjtBQWR3QixDQUFsQixDQUFILENBQVoiLCJzb3VyY2VzQ29udGVudCI6WyIvKlxuKiBAZmxvd1xuKi9cblxuaW1wb3J0IFJlYWN0IGZyb20gJ3JlYWN0JztcbmltcG9ydCB7IFN0eWxlU2hlZXQsIFRleHQsIFRvdWNoYWJsZU9wYWNpdHksIFZpZXcgfSBmcm9tICdyZWFjdC1uYXRpdmUnO1xuXG5pbXBvcnQgdGhlbWUgZnJvbSAnLi4vdGhlbWUnO1xuXG50eXBlIHRpdGxlUHJvcHMgPSB7XG4gIGJ1dHRvblByZXNzPzogRnVuY3Rpb24sXG4gIGJ1dHRvblZhbHVlPzogc3RyaW5nLFxuICB0aXRsZTogc3RyaW5nLFxufTtcblxuZXhwb3J0IGRlZmF1bHQgKHsgYnV0dG9uUHJlc3MgPSAoKSA9PiB7fSwgYnV0dG9uVmFsdWUgPSAnJywgdGl0bGUgPSAnJyB9OiB0aXRsZVByb3BzKSA9PiAoXG4gIDxWaWV3IHN0eWxlPXtzdHlsZXMuY29udGFpbmVyfT5cbiAgICB7Qm9vbGVhbihidXR0b25WYWx1ZSkgJiZcbiAgICAgIDxUb3VjaGFibGVPcGFjaXR5XG4gICAgICAgIGFjdGl2ZU9wYWNpdHk9ezAuOH1cbiAgICAgICAgaGl0U2xvcD17dGhlbWUuSElUU0xPUF9MQVJHRX1cbiAgICAgICAgb25QcmVzcz17YnV0dG9uUHJlc3N9XG4gICAgICA+XG4gICAgICAgIDxUZXh0IHN0eWxlPXtbc3R5bGVzLnRpdGxlLCBzdHlsZXMuYnV0dG9uVmFsdWVdfT57IGJ1dHRvblZhbHVlIH08L1RleHQ+XG4gICAgICA8L1RvdWNoYWJsZU9wYWNpdHk+fVxuICAgIDxUZXh0IHN0eWxlPXtzdHlsZXMudGl0bGV9PnsgdGl0bGUgfTwvVGV4dD5cbiAgPC9WaWV3PlxuKTtcblxuY29uc3Qgc3R5bGVzID0gU3R5bGVTaGVldC5jcmVhdGUoe1xuICBidXR0b25Db250YWluZXI6IHtcbiAgICBtYXJnaW5MZWZ0OiB0aGVtZS5CT1JERVJfUEFERElOR19IT1JJWk9OVEFMLFxuICB9LFxuICBidXR0b25WYWx1ZToge1xuICAgIGZvbnRTaXplOiAzNSxcbiAgfSxcbiAgY29udGFpbmVyOiB7XG4gICAgYWxpZ25JdGVtczogJ2NlbnRlcicsXG4gICAgYmFja2dyb3VuZENvbG9yOiB0aGVtZS5DT0xPUl9XSElURSxcbiAgICBmbGV4RGlyZWN0aW9uOiAncm93JyxcbiAgICBoZWlnaHQ6IDY1LFxuICAgIHpJbmRleDogMTAsXG4gIH0sXG4gIHRpdGxlOiB7XG4gICAgY29sb3I6IHRoZW1lLkNPTE9SX1BSSU1BUlksXG4gICAgZm9udFNpemU6IHRoZW1lLkZPTlRfU0laRV9MQVJHRSxcbiAgICBtYXJnaW5MZWZ0OiB0aGVtZS5CT1JERVJfUEFERElOR19IT1JJWk9OVEFMLFxuICB9LFxufSk7Il19

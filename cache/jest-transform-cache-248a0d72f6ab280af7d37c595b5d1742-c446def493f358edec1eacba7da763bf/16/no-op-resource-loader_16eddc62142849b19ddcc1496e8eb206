@@ -1,0 +1,11 @@
+f9e92119788f84b96ca13004af3d422b
+"use strict";
+
+const ResourceLoader = require("./resource-loader.js");
+
+module.exports = class NoOpResourceLoader extends ResourceLoader {
+  fetch() {
+    return null;
+  }
+
+};

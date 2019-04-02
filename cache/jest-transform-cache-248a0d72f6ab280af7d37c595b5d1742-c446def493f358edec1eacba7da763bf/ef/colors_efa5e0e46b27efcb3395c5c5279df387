@@ -1,0 +1,42 @@
+90af76266a4583e9390d6f566e35b9a2
+var cov_283rrm6k5b = function () {
+  var path = "/Users/andy/Desktop/Upwork/ReservationApp/src/theme/colors.js";
+  var hash = "4799505417d0a165054a91c6f8224f5068662609";
+
+  var Function = function () {}.constructor;
+
+  var global = new Function("return this")();
+  var gcv = "__coverage__";
+  var coverageData = {
+    path: "/Users/andy/Desktop/Upwork/ReservationApp/src/theme/colors.js",
+    statementMap: {},
+    fnMap: {},
+    branchMap: {},
+    s: {},
+    f: {},
+    b: {},
+    _coverageSchema: "43e27e138ebf9cfc5966b082cf9a028302ed4184"
+  };
+  var coverage = global[gcv] || (global[gcv] = {});
+
+  if (coverage[path] && coverage[path].hash === hash) {
+    return coverage[path];
+  }
+
+  coverageData.hash = hash;
+  return coverage[path] = coverageData;
+}();
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+var _default = {
+  COLOR_PRIMARY: 'rgb(30, 147, 242)',
+  COLOR_SECONDARY: 'rgb(238, 167, 2)',
+  COLOR_GREY: 'rgb(211,211,211)',
+  COLOR_DARK: 'rgb(35, 40, 45)',
+  COLOR_WHITE: 'rgb(255, 255, 255)'
+};
+exports.default = _default;
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImNvbG9ycy5qcyJdLCJuYW1lcyI6WyJDT0xPUl9QUklNQVJZIiwiQ09MT1JfU0VDT05EQVJZIiwiQ09MT1JfR1JFWSIsIkNPTE9SX0RBUksiLCJDT0xPUl9XSElURSJdLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7ZUFBZTtBQUNiQSxFQUFBQSxhQUFhLEVBQUUsbUJBREY7QUFFYkMsRUFBQUEsZUFBZSxFQUFFLGtCQUZKO0FBR2JDLEVBQUFBLFVBQVUsRUFBRSxrQkFIQztBQUliQyxFQUFBQSxVQUFVLEVBQUUsaUJBSkM7QUFLYkMsRUFBQUEsV0FBVyxFQUFFO0FBTEEsQyIsInNvdXJjZXNDb250ZW50IjpbImV4cG9ydCBkZWZhdWx0IHtcbiAgQ09MT1JfUFJJTUFSWTogJ3JnYigzMCwgMTQ3LCAyNDIpJyxcbiAgQ09MT1JfU0VDT05EQVJZOiAncmdiKDIzOCwgMTY3LCAyKScsXG4gIENPTE9SX0dSRVk6ICdyZ2IoMjExLDIxMSwyMTEpJyxcbiAgQ09MT1JfREFSSzogJ3JnYigzNSwgNDAsIDQ1KScsXG4gIENPTE9SX1dISVRFOiAncmdiKDI1NSwgMjU1LCAyNTUpJyxcbn1cbiJdfQ==

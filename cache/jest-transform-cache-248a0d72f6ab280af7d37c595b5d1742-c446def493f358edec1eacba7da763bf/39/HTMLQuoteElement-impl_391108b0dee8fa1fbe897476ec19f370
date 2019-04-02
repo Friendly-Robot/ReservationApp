@@ -1,0 +1,21 @@
+f1c67ac14b8fa2aec21224c47478af32
+"use strict";
+
+const conversions = require("webidl-conversions");
+
+const HTMLElementImpl = require("./HTMLElement-impl").implementation;
+
+class HTMLQuoteElementImpl extends HTMLElementImpl {
+  get cite() {
+    return conversions.USVString(this.getAttribute("cite"));
+  }
+
+  set cite(value) {
+    this.setAttribute("cite", value);
+  }
+
+}
+
+module.exports = {
+  implementation: HTMLQuoteElementImpl
+};

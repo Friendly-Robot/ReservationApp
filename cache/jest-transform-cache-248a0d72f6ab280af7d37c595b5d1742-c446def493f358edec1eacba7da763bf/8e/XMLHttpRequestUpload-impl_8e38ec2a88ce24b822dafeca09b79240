@@ -1,0 +1,6 @@
+e4f084481dd40b70372a6b5e521577c9
+"use strict";
+
+const XMLHttpRequestEventTargetImpl = require("./XMLHttpRequestEventTarget-impl").implementation;
+
+exports.implementation = class XMLHttpRequestUploadImpl extends XMLHttpRequestEventTargetImpl {};

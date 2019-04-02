@@ -1,0 +1,59 @@
+5182d48df5394c1ef57208947e15a58b
+var cov_21jupn2pir = function () {
+  var path = "/Users/andy/Desktop/Upwork/ReservationApp/src/theme/constants.js";
+  var hash = "926fd9a12a45420fee8888944ab28ed8ee81adad";
+
+  var Function = function () {}.constructor;
+
+  var global = new Function("return this")();
+  var gcv = "__coverage__";
+  var coverageData = {
+    path: "/Users/andy/Desktop/Upwork/ReservationApp/src/theme/constants.js",
+    statementMap: {
+      "0": {
+        start: {
+          line: 2,
+          column: 26
+        },
+        end: {
+          line: 2,
+          column: 50
+        }
+      }
+    },
+    fnMap: {},
+    branchMap: {},
+    s: {
+      "0": 0
+    },
+    f: {},
+    b: {},
+    _coverageSchema: "43e27e138ebf9cfc5966b082cf9a028302ed4184"
+  };
+  var coverage = global[gcv] || (global[gcv] = {});
+
+  if (coverage[path] && coverage[path].hash === hash) {
+    return coverage[path];
+  }
+
+  coverageData.hash = hash;
+  return coverage[path] = coverageData;
+}();
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _reactNative = require("react-native");
+
+var _ref = (cov_21jupn2pir.s[0]++, _reactNative.Dimensions.get('window')),
+    height = _ref.height,
+    width = _ref.width;
+
+var _default = {
+  deviceHeight: height,
+  deviceWidth: width
+};
+exports.default = _default;
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImNvbnN0YW50cy5qcyJdLCJuYW1lcyI6WyJEaW1lbnNpb25zIiwiZ2V0IiwiaGVpZ2h0Iiwid2lkdGgiLCJkZXZpY2VIZWlnaHQiLCJkZXZpY2VXaWR0aCJdLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7OztBQUFBOzttQ0FDMEJBLHdCQUFXQyxHQUFYLENBQWUsUUFBZixDO0lBQWxCQyxNLFFBQUFBLE07SUFBUUMsSyxRQUFBQSxLOztlQUVEO0FBQ2JDLEVBQUFBLFlBQVksRUFBRUYsTUFERDtBQUViRyxFQUFBQSxXQUFXLEVBQUVGO0FBRkEsQyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7IERpbWVuc2lvbnMgfSBmcm9tICdyZWFjdC1uYXRpdmUnO1xuY29uc3QgeyBoZWlnaHQsIHdpZHRoIH0gPSBEaW1lbnNpb25zLmdldCgnd2luZG93Jyk7XG5cbmV4cG9ydCBkZWZhdWx0IHtcbiAgZGV2aWNlSGVpZ2h0OiBoZWlnaHQsXG4gIGRldmljZVdpZHRoOiB3aWR0aCxcbn1cbiJdfQ==

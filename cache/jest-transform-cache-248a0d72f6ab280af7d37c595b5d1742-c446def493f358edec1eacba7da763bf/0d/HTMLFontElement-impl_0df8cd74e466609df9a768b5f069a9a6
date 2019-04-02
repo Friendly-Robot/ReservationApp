@@ -1,0 +1,10 @@
+4b11b012dd3d6a8947185e31f706c2bb
+"use strict";
+
+const HTMLElementImpl = require("./HTMLElement-impl").implementation;
+
+class HTMLFontElementImpl extends HTMLElementImpl {}
+
+module.exports = {
+  implementation: HTMLFontElementImpl
+};

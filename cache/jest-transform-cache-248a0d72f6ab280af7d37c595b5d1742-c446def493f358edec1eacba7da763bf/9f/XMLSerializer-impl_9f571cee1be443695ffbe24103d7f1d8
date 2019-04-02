@@ -1,0 +1,13 @@
+123c9019d72967842603ef8fc64b9fc7
+"use strict";
+
+const {
+  produceXMLSerialization
+} = require("./serialization");
+
+exports.implementation = class XMLSerializerImpl {
+  serializeToString(root) {
+    return produceXMLSerialization(root, false);
+  }
+
+};

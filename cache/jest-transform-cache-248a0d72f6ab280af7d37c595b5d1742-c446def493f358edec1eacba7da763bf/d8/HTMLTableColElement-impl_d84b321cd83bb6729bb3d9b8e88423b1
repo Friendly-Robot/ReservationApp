@@ -1,0 +1,10 @@
+77c002768edf4037e336089f9c618b18
+"use strict";
+
+const HTMLElementImpl = require("./HTMLElement-impl").implementation;
+
+class HTMLTableColElementImpl extends HTMLElementImpl {}
+
+module.exports = {
+  implementation: HTMLTableColElementImpl
+};

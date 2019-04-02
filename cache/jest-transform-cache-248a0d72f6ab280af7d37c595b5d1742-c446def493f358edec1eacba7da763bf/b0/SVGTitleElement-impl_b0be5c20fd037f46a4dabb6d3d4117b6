@@ -1,0 +1,10 @@
+c64a5ff3658d1eb76b973610426d8ed8
+"use strict";
+
+const SVGElementImpl = require("./SVGElement-impl").implementation;
+
+class SVGTitleElementImpl extends SVGElementImpl {}
+
+module.exports = {
+  implementation: SVGTitleElementImpl
+};

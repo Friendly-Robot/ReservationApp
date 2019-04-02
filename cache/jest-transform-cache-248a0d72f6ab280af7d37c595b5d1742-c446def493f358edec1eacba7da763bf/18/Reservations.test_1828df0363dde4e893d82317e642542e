@@ -1,0 +1,22 @@
+a78332f21016e7bda298c3b8ef84a733
+var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
+
+require("react-native");
+
+var _react = _interopRequireDefault(require("react"));
+
+var _Reservations = _interopRequireDefault(require("../Reservations"));
+
+var _reactTestRenderer = _interopRequireDefault(require("react-test-renderer"));
+
+describe('<Reservations />', function () {
+  it('should be defined', function () {
+    expect(_Reservations.default).toBeDefined();
+  });
+  it('renders correctly', function () {
+    var tree = _reactTestRenderer.default.create(_react.default.createElement(_Reservations.default, null)).toJSON();
+
+    expect(tree).toMatchSnapshot();
+  });
+});
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIlJlc2VydmF0aW9ucy50ZXN0LmpzIl0sIm5hbWVzIjpbImRlc2NyaWJlIiwiaXQiLCJleHBlY3QiLCJSZXNlcnZhdGlvbnMiLCJ0b0JlRGVmaW5lZCIsInRyZWUiLCJyZW5kZXJlciIsImNyZWF0ZSIsInRvSlNPTiIsInRvTWF0Y2hTbmFwc2hvdCJdLCJtYXBwaW5ncyI6Ijs7QUFJQTs7QUFDQTs7QUFDQTs7QUFHQTs7QUFFQUEsUUFBUSxDQUFDLGtCQUFELEVBQXFCLFlBQU07QUFDakNDLEVBQUFBLEVBQUUsQ0FBQyxtQkFBRCxFQUFzQixZQUFNO0FBQzVCQyxJQUFBQSxNQUFNLENBQUNDLHFCQUFELENBQU4sQ0FBcUJDLFdBQXJCO0FBQ0QsR0FGQyxDQUFGO0FBSUFILEVBQUFBLEVBQUUsQ0FBQyxtQkFBRCxFQUFzQixZQUFNO0FBQzVCLFFBQU1JLElBQUksR0FBR0MsMkJBQVNDLE1BQVQsQ0FBZ0IsNkJBQUMscUJBQUQsT0FBaEIsRUFBa0NDLE1BQWxDLEVBQWI7O0FBQ0FOLElBQUFBLE1BQU0sQ0FBQ0csSUFBRCxDQUFOLENBQWFJLGVBQWI7QUFDRCxHQUhDLENBQUY7QUFJRCxDQVRPLENBQVIiLCJzb3VyY2VzQ29udGVudCI6WyIvKipcbiAqIEBmb3JtYXRcbiAqL1xuXG5pbXBvcnQgJ3JlYWN0LW5hdGl2ZSc7XG5pbXBvcnQgUmVhY3QgZnJvbSAncmVhY3QnO1xuaW1wb3J0IFJlc2VydmF0aW9ucyBmcm9tICcuLi9SZXNlcnZhdGlvbnMnO1xuXG4vLyBOb3RlOiB0ZXN0IHJlbmRlcmVyIG11c3QgYmUgcmVxdWlyZWQgYWZ0ZXIgcmVhY3QtbmF0aXZlLlxuaW1wb3J0IHJlbmRlcmVyIGZyb20gJ3JlYWN0LXRlc3QtcmVuZGVyZXInO1xuXG5kZXNjcmliZSgnPFJlc2VydmF0aW9ucyAvPicsICgpID0+IHtcbiAgaXQoJ3Nob3VsZCBiZSBkZWZpbmVkJywgKCkgPT4ge1xuICAgIGV4cGVjdChSZXNlcnZhdGlvbnMpLnRvQmVEZWZpbmVkKCk7XG4gIH0pO1xuXG4gIGl0KCdyZW5kZXJzIGNvcnJlY3RseScsICgpID0+IHtcbiAgICBjb25zdCB0cmVlID0gcmVuZGVyZXIuY3JlYXRlKDxSZXNlcnZhdGlvbnMgLz4pLnRvSlNPTigpO1xuICAgIGV4cGVjdCh0cmVlKS50b01hdGNoU25hcHNob3QoKTtcbiAgfSk7XG59KVxuIl19

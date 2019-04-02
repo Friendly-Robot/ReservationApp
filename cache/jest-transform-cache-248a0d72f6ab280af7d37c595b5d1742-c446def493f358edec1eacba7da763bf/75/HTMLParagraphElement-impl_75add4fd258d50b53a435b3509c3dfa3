@@ -1,0 +1,10 @@
+3d1cd14ebaf821969b954fca5d164e7c
+"use strict";
+
+const HTMLElementImpl = require("./HTMLElement-impl").implementation;
+
+class HTMLParagraphElementImpl extends HTMLElementImpl {}
+
+module.exports = {
+  implementation: HTMLParagraphElementImpl
+};

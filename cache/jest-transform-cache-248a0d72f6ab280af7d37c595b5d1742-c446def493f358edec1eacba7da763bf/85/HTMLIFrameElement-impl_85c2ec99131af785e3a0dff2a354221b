@@ -1,0 +1,10 @@
+4a42049eb471826684776fbfb4f9961c
+"use strict";
+
+const HTMLFrameElementImpl = require("./HTMLFrameElement-impl").implementation;
+
+class HTMLIFrameElementImpl extends HTMLFrameElementImpl {}
+
+module.exports = {
+  implementation: HTMLIFrameElementImpl
+};

@@ -1,0 +1,10 @@
+4946a226a18cdaabe9470b1216a23f4c
+"use strict";
+
+const HTMLElementImpl = require("./HTMLElement-impl").implementation;
+
+class HTMLOptGroupElementImpl extends HTMLElementImpl {}
+
+module.exports = {
+  implementation: HTMLOptGroupElementImpl
+};

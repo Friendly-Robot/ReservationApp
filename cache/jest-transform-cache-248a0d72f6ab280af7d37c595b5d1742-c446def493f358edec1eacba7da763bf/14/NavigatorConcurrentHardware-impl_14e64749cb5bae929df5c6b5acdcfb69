@@ -1,0 +1,11 @@
+82c99d0330dfd36dd07b6bc8cca26537
+"use strict";
+
+const os = require("os");
+
+exports.implementation = class NavigatorConcurrentHardwareImpl {
+  get hardwareConcurrency() {
+    return os.cpus().length;
+  }
+
+};

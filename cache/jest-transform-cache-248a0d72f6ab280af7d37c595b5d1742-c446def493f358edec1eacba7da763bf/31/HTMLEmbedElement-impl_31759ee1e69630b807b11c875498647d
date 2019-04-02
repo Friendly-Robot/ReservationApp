@@ -1,0 +1,23 @@
+5e0f67e5d936d9bf2eef1c6c510bb437
+"use strict";
+
+const HTMLElementImpl = require("./HTMLElement-impl").implementation;
+
+const {
+  reflectURLAttribute
+} = require("../../utils");
+
+class HTMLEmbedElementImpl extends HTMLElementImpl {
+  get src() {
+    return reflectURLAttribute(this, "src");
+  }
+
+  set src(value) {
+    this.setAttribute("src", value);
+  }
+
+}
+
+module.exports = {
+  implementation: HTMLEmbedElementImpl
+};

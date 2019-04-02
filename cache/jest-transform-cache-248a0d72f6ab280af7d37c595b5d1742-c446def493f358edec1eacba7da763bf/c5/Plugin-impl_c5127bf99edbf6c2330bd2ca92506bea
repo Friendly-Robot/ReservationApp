@@ -1,0 +1,4 @@
+7dc0f053e1fe5db59792d657bb8e9f4a
+"use strict";
+
+exports.implementation = class Plugin {};

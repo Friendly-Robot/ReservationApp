@@ -1,0 +1,136 @@
+0c7f0a01eb5eb080aaaae7ee3b1c8d7d
+var cov_2gbs8i9k58 = function () {
+  var path = "/Users/andy/Desktop/Upwork/ReservationApp/src/setup.js";
+  var hash = "20f7e43ec3385f8b6a9ef91e3280159e43811c1b";
+
+  var Function = function () {}.constructor;
+
+  var global = new Function("return this")();
+  var gcv = "__coverage__";
+  var coverageData = {
+    path: "/Users/andy/Desktop/Upwork/ReservationApp/src/setup.js",
+    statementMap: {
+      "0": {
+        start: {
+          line: 15,
+          column: 15
+        },
+        end: {
+          line: 17,
+          column: 2
+        }
+      },
+      "1": {
+        start: {
+          line: 22,
+          column: 4
+        },
+        end: {
+          line: 26,
+          column: 6
+        }
+      }
+    },
+    fnMap: {
+      "0": {
+        name: "(anonymous_0)",
+        decl: {
+          start: {
+            line: 21,
+            column: 2
+          },
+          end: {
+            line: 21,
+            column: 3
+          }
+        },
+        loc: {
+          start: {
+            line: 21,
+            column: 11
+          },
+          end: {
+            line: 27,
+            column: 3
+          }
+        },
+        line: 21
+      }
+    },
+    branchMap: {},
+    s: {
+      "0": 0,
+      "1": 0
+    },
+    f: {
+      "0": 0
+    },
+    b: {},
+    _coverageSchema: "43e27e138ebf9cfc5966b082cf9a028302ed4184"
+  };
+  var coverage = global[gcv] || (global[gcv] = {});
+
+  if (coverage[path] && coverage[path].hash === hash) {
+    return coverage[path];
+  }
+
+  coverageData.hash = hash;
+  return coverage[path] = coverageData;
+}();
+
+var _interopRequireWildcard = require("@babel/runtime/helpers/interopRequireWildcard");
+
+var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _classCallCheck2 = _interopRequireDefault(require("@babel/runtime/helpers/classCallCheck"));
+
+var _createClass2 = _interopRequireDefault(require("@babel/runtime/helpers/createClass"));
+
+var _possibleConstructorReturn2 = _interopRequireDefault(require("@babel/runtime/helpers/possibleConstructorReturn"));
+
+var _getPrototypeOf2 = _interopRequireDefault(require("@babel/runtime/helpers/getPrototypeOf"));
+
+var _inherits2 = _interopRequireDefault(require("@babel/runtime/helpers/inherits"));
+
+var _react = _interopRequireWildcard(require("react"));
+
+var _reactApollo = require("react-apollo");
+
+var _apolloBoost = _interopRequireDefault(require("apollo-boost"));
+
+var _App = _interopRequireDefault(require("./App"));
+
+var _env = _interopRequireDefault(require("./env"));
+
+var client = (cov_2gbs8i9k58.s[0]++, new _apolloBoost.default({
+  uri: _env.default.graphqlURL
+}));
+
+var Root = function (_PureComponent) {
+  (0, _inherits2.default)(Root, _PureComponent);
+
+  function Root() {
+    (0, _classCallCheck2.default)(this, Root);
+    return (0, _possibleConstructorReturn2.default)(this, (0, _getPrototypeOf2.default)(Root).apply(this, arguments));
+  }
+
+  (0, _createClass2.default)(Root, [{
+    key: "render",
+    value: function render() {
+      cov_2gbs8i9k58.f[0]++;
+      cov_2gbs8i9k58.s[1]++;
+      return _react.default.createElement(_reactApollo.ApolloProvider, {
+        client: client
+      }, _react.default.createElement(_App.default, null));
+    }
+  }]);
+  return Root;
+}(_react.PureComponent);
+
+exports.default = Root;
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNldHVwLmpzIl0sIm5hbWVzIjpbImNsaWVudCIsIkFwb2xsb0NsaWVudCIsInVyaSIsImVudiIsImdyYXBocWxVUkwiLCJSb290IiwiUHVyZUNvbXBvbmVudCJdLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7QUFRQTs7QUFDQTs7QUFDQTs7QUFDQTs7QUFDQTs7QUFFQSxJQUFNQSxNQUFNLDJCQUFHLElBQUlDLG9CQUFKLENBQWlCO0FBQzlCQyxFQUFBQSxHQUFHLEVBQUVDLGFBQUlDO0FBRHFCLENBQWpCLENBQUgsQ0FBWjs7SUFLcUJDLEk7Ozs7Ozs7Ozs7NkJBQ1Y7QUFBQTtBQUFBO0FBQ1AsYUFDRSw2QkFBQywyQkFBRDtBQUFnQixRQUFBLE1BQU0sRUFBRUw7QUFBeEIsU0FDRSw2QkFBQyxZQUFELE9BREYsQ0FERjtBQUtEOzs7RUFQK0JNLG9CIiwic291cmNlc0NvbnRlbnQiOlsiLyoqXG4gKiBTYW1wbGUgUmVhY3QgTmF0aXZlIEFwcFxuICogaHR0cHM6Ly9naXRodWIuY29tL2ZhY2Vib29rL3JlYWN0LW5hdGl2ZVxuICpcbiAqIEBmb3JtYXRcbiAqIEBmbG93XG4gKi9cblxuaW1wb3J0IFJlYWN0LCB7UHVyZUNvbXBvbmVudH0gZnJvbSAncmVhY3QnO1xuaW1wb3J0IHsgQXBvbGxvUHJvdmlkZXIgfSBmcm9tICdyZWFjdC1hcG9sbG8nO1xuaW1wb3J0IEFwb2xsb0NsaWVudCBmcm9tICdhcG9sbG8tYm9vc3QnO1xuaW1wb3J0IEFwcCBmcm9tICcuL0FwcCc7XG5pbXBvcnQgZW52IGZyb20gJy4vZW52JztcblxuY29uc3QgY2xpZW50ID0gbmV3IEFwb2xsb0NsaWVudCh7XG4gIHVyaTogZW52LmdyYXBocWxVUkwsXG59KTtcblxudHlwZSBQcm9wcyA9IHt9O1xuZXhwb3J0IGRlZmF1bHQgY2xhc3MgUm9vdCBleHRlbmRzIFB1cmVDb21wb25lbnQ8UHJvcHM+IHtcbiAgcmVuZGVyKCkge1xuICAgIHJldHVybiAoXG4gICAgICA8QXBvbGxvUHJvdmlkZXIgY2xpZW50PXtjbGllbnR9PlxuICAgICAgICA8QXBwIC8+XG4gICAgICA8L0Fwb2xsb1Byb3ZpZGVyPlxuICAgICk7XG4gIH1cbn1cbiJdfQ==

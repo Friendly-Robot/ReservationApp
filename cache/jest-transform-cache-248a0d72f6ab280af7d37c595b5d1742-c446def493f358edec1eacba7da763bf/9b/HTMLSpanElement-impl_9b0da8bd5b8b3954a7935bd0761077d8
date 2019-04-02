@@ -1,0 +1,10 @@
+b21c692221e706b250dcdf74bf5d906d
+"use strict";
+
+const HTMLElementImpl = require("./HTMLElement-impl").implementation;
+
+class HTMLSpanElementImpl extends HTMLElementImpl {}
+
+module.exports = {
+  implementation: HTMLSpanElementImpl
+};

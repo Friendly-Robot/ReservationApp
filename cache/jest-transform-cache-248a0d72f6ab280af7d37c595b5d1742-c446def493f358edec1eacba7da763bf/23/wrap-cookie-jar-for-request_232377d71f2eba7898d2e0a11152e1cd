@@ -1,0 +1,10 @@
+7b7a04bb995334e0f41c14d4b595569d
+"use strict";
+
+const request = require("request");
+
+module.exports = cookieJar => {
+  const jarWrapper = request.jar();
+  jarWrapper._jar = cookieJar;
+  return jarWrapper;
+};

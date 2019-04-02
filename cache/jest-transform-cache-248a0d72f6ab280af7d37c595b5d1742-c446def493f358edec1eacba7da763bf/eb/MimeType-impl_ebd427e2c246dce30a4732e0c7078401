@@ -1,0 +1,4 @@
+69754b02452c6a377e666839ce718163
+"use strict";
+
+exports.implementation = class MimeType {};

@@ -1,0 +1,10 @@
+1398d13aac264a9f039f7b7ed9ec3ae6
+"use strict";
+
+const HTMLElementImpl = require("./HTMLElement-impl").implementation;
+
+class HTMLMenuElementImpl extends HTMLElementImpl {}
+
+module.exports = {
+  implementation: HTMLMenuElementImpl
+};

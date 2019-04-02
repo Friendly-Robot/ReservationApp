@@ -1,0 +1,8 @@
+ba6499fe070ddcc307181944650bb6f9
+"use strict";
+
+class ElementContentEditableImpl {}
+
+module.exports = {
+  implementation: ElementContentEditableImpl
+};

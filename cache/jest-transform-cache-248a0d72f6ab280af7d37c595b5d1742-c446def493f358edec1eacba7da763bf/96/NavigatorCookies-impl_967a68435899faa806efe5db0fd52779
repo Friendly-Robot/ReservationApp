@@ -1,0 +1,9 @@
+dbe719babf3fed424840adf0ebf187e4
+"use strict";
+
+exports.implementation = class NavigatorCookiesImpl {
+  get cookieEnabled() {
+    return true;
+  }
+
+};

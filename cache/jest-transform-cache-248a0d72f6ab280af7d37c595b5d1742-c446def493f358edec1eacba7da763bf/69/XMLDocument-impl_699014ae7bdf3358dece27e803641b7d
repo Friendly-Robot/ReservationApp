@@ -1,0 +1,6 @@
+bf81bd039d344f70c47d41d976ce2240
+"use strict";
+
+const DocumentImpl = require("./Document-impl").implementation;
+
+exports.implementation = class XMLDocumentImpl extends DocumentImpl {};

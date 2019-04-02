@@ -1,0 +1,9 @@
+f162f74d2c58ce6d0555fb3f85a401fa
+"use strict"; // https://dom.spec.whatwg.org/#interface-nonelementparentnode
+// getElementById is implemented separately inside Document and DocumentFragment.
+
+class NonElementParentNodeImpl {}
+
+module.exports = {
+  implementation: NonElementParentNodeImpl
+};

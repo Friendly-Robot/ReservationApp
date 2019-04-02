@@ -1,0 +1,13 @@
+1dec9e258b285ebd630490922a7cd7c3
+"use strict";
+
+const {
+  produceXMLSerialization
+} = require("./serialization");
+
+const XMLSerializer = require("./XMLSerializer");
+
+module.exports = {
+  XMLSerializer,
+  produceXMLSerialization
+};

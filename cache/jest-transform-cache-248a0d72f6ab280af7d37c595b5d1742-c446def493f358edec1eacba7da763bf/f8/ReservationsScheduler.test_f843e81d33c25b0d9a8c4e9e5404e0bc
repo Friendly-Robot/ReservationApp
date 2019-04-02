@@ -1,0 +1,44 @@
+407f87c01f46a081903168762fbdf63b
+var _interopRequireWildcard = require("@babel/runtime/helpers/interopRequireWildcard");
+
+var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
+
+require("react-native");
+
+var _react = _interopRequireDefault(require("react"));
+
+var _enzyme = _interopRequireWildcard(require("enzyme"));
+
+var _reactTestRenderer = _interopRequireDefault(require("react-test-renderer"));
+
+var _reactApollo = require("react-apollo");
+
+var _apolloBoost = _interopRequireDefault(require("apollo-boost"));
+
+var _env = _interopRequireDefault(require("../../../env"));
+
+require("node-fetch");
+
+var _ErrorBoundary = _interopRequireDefault(require("../../../utils/ErrorBoundary"));
+
+var _ReservationsScheduler = _interopRequireDefault(require("../ReservationsScheduler"));
+
+describe('<ReservationsScheduler />', function () {
+  var wrapper;
+  var closeModal = jest.fn();
+  var props = {
+    closeModal: closeModal
+  };
+  beforeEach(function () {
+    wrapper = (0, _enzyme.shallow)(_react.default.createElement(_ErrorBoundary.default, null, _react.default.createElement(_ReservationsScheduler.default, props)));
+  });
+  it('renders correctly', function () {
+    var tree = _reactTestRenderer.default.create(_react.default.createElement(_reactApollo.ApolloProvider, {
+      client: {}
+    }, _react.default.createElement(_ReservationsScheduler.default, null))).toJSON();
+
+    expect(tree).toMatchSnapshot();
+    console.log(wrapper);
+  });
+});
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIlJlc2VydmF0aW9uc1NjaGVkdWxlci50ZXN0LmpzIl0sIm5hbWVzIjpbImRlc2NyaWJlIiwid3JhcHBlciIsImNsb3NlTW9kYWwiLCJqZXN0IiwiZm4iLCJwcm9wcyIsImJlZm9yZUVhY2giLCJpdCIsInRyZWUiLCJyZW5kZXJlciIsImNyZWF0ZSIsInRvSlNPTiIsImV4cGVjdCIsInRvTWF0Y2hTbmFwc2hvdCIsImNvbnNvbGUiLCJsb2ciXSwibWFwcGluZ3MiOiI7Ozs7QUFJQTs7QUFDQTs7QUFDQTs7QUFFQTs7QUFFQTs7QUFDQTs7QUFDQTs7QUFDQTs7QUFFQTs7QUFFQTs7QUFHQUEsUUFBUSxDQUFDLDJCQUFELEVBQThCLFlBQU07QUFDMUMsTUFBSUMsT0FBSjtBQUNBLE1BQU1DLFVBQVUsR0FBR0MsSUFBSSxDQUFDQyxFQUFMLEVBQW5CO0FBQ0EsTUFBSUMsS0FBSyxHQUFHO0FBQ1ZILElBQUFBLFVBQVUsRUFBVkE7QUFEVSxHQUFaO0FBSUFJLEVBQUFBLFVBQVUsQ0FBQyxZQUFNO0FBQ2ZMLElBQUFBLE9BQU8sR0FBRyxxQkFDUiw2QkFBQyxzQkFBRCxRQUNFLDZCQUFDLDhCQUFELEVBQTJCSSxLQUEzQixDQURGLENBRFEsQ0FBVjtBQUtELEdBTlMsQ0FBVjtBQVNBRSxFQUFBQSxFQUFFLENBQUMsbUJBQUQsRUFBc0IsWUFBTTtBQUM1QixRQUFNQyxJQUFJLEdBQUdDLDJCQUFTQyxNQUFULENBQ1gsNkJBQUMsMkJBQUQ7QUFBZ0IsTUFBQSxNQUFNLEVBQUU7QUFBeEIsT0FDRSw2QkFBQyw4QkFBRCxPQURGLENBRFcsRUFJWEMsTUFKVyxFQUFiOztBQUtBQyxJQUFBQSxNQUFNLENBQUNKLElBQUQsQ0FBTixDQUFhSyxlQUFiO0FBQ0FDLElBQUFBLE9BQU8sQ0FBQ0MsR0FBUixDQUFZZCxPQUFaO0FBQ0QsR0FSQyxDQUFGO0FBU0QsQ0F6Qk8sQ0FBUiIsInNvdXJjZXNDb250ZW50IjpbIi8qKlxuICogQGZvcm1hdFxuICovXG5cbmltcG9ydCAncmVhY3QtbmF0aXZlJztcbmltcG9ydCBSZWFjdCBmcm9tICdyZWFjdCc7XG5pbXBvcnQgRW56eW1lLCB7IHNoYWxsb3cgfSBmcm9tICdlbnp5bWUnO1xuLy8gaW1wb3J0IEFkYXB0ZXIgZnJvbSAnZW56eW1lLWFkYXB0ZXItcmVhY3QtMTUnO1xuaW1wb3J0IHJlbmRlcmVyIGZyb20gJ3JlYWN0LXRlc3QtcmVuZGVyZXInO1xuXG5pbXBvcnQgeyBBcG9sbG9Qcm92aWRlciB9IGZyb20gJ3JlYWN0LWFwb2xsbyc7XG5pbXBvcnQgQXBvbGxvQ2xpZW50IGZyb20gJ2Fwb2xsby1ib29zdCc7XG5pbXBvcnQgZW52IGZyb20gJy4uLy4uLy4uL2Vudic7XG5pbXBvcnQgJ25vZGUtZmV0Y2gnO1xuXG5pbXBvcnQgRXJyb3JCb3VuZGFyeSBmcm9tICcuLi8uLi8uLi91dGlscy9FcnJvckJvdW5kYXJ5JztcblxuaW1wb3J0IFJlc2VydmF0aW9uc1NjaGVkdWxlciBmcm9tICcuLi9SZXNlcnZhdGlvbnNTY2hlZHVsZXInO1xuXG5cbmRlc2NyaWJlKCc8UmVzZXJ2YXRpb25zU2NoZWR1bGVyIC8+JywgKCkgPT4ge1xuICBsZXQgd3JhcHBlcjtcbiAgY29uc3QgY2xvc2VNb2RhbCA9IGplc3QuZm4oKTtcbiAgbGV0IHByb3BzID0ge1xuICAgIGNsb3NlTW9kYWxcbiAgfTtcblxuICBiZWZvcmVFYWNoKCgpID0+IHtcbiAgICB3cmFwcGVyID0gc2hhbGxvdyhcbiAgICAgIDxFcnJvckJvdW5kYXJ5PlxuICAgICAgICA8UmVzZXJ2YXRpb25zU2NoZWR1bGVyIHsuLi5wcm9wc30gLz5cbiAgICAgIDwvRXJyb3JCb3VuZGFyeT5cbiAgICApXG4gIH0pO1xuXG4gIFxuICBpdCgncmVuZGVycyBjb3JyZWN0bHknLCAoKSA9PiB7XG4gICAgY29uc3QgdHJlZSA9IHJlbmRlcmVyLmNyZWF0ZShcbiAgICAgIDxBcG9sbG9Qcm92aWRlciBjbGllbnQ9e3t9fT5cbiAgICAgICAgPFJlc2VydmF0aW9uc1NjaGVkdWxlciAvPlxuICAgICAgPC9BcG9sbG9Qcm92aWRlcj5cbiAgICApLnRvSlNPTigpO1xuICAgIGV4cGVjdCh0cmVlKS50b01hdGNoU25hcHNob3QoKTtcbiAgICBjb25zb2xlLmxvZyh3cmFwcGVyKTtcbiAgfSk7XG59KTtcbiJdfQ==

@@ -1,0 +1,10 @@
+d27da1ae8e436431de7a66a83aac5829
+"use strict";
+
+const HTMLElementImpl = require("./HTMLElement-impl").implementation;
+
+class HTMLDivElementImpl extends HTMLElementImpl {}
+
+module.exports = {
+  implementation: HTMLDivElementImpl
+};

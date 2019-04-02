@@ -1,139 +1,120 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1554191943272" clover="3.2.0">
-  <project timestamp="1554191943272" name="All files">
-    <metrics statements="95" coveredstatements="65" conditionals="54" coveredconditionals="24" methods="35" coveredmethods="14" elements="184" coveredelements="103" complexity="0" loc="95" ncloc="95" packages="7" files="26" classes="26"/>
-    <package name="src">
-      <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
-      <file name="App.js" path="/Users/andy/Desktop/Upwork/ReservationApp/src/App.js">
-        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="11" count="1" type="stmt"/>
-      </file>
-      <file name="env.js" path="/Users/andy/Desktop/Upwork/ReservationApp/src/env.js">
-        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-      </file>
-      <file name="setup.js" path="/Users/andy/Desktop/Upwork/ReservationApp/src/setup.js">
-        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
-        <line num="18" count="1" type="stmt"/>
-        <line num="19" count="1" type="stmt"/>
-        <line num="25" count="1" type="stmt"/>
-      </file>
-    </package>
-    <package name="src.common">
-      <metrics statements="14" coveredstatements="11" conditionals="13" coveredconditionals="11" methods="11" coveredmethods="5"/>
+<coverage generated="1554249504243" clover="3.2.0">
+  <project timestamp="1554249504243" name="All files">
+    <metrics statements="98" coveredstatements="78" conditionals="56" coveredconditionals="35" methods="36" coveredmethods="19" elements="190" coveredelements="132" complexity="0" loc="98" ncloc="98" packages="7" files="23" classes="23"/>
+    <package name="common">
+      <metrics statements="14" coveredstatements="11" conditionals="13" coveredconditionals="12" methods="11" coveredmethods="5"/>
       <file name="ButtonActionRound.js" path="/Users/andy/Desktop/Upwork/ReservationApp/src/common/ButtonActionRound.js">
         <metrics statements="2" coveredstatements="2" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="1"/>
-        <line num="12" count="1" type="stmt"/>
-        <line num="23" count="2" type="stmt"/>
+        <line num="12" count="3" type="stmt"/>
+        <line num="23" count="4" type="stmt"/>
       </file>
       <file name="HeaderImage.js" path="/Users/andy/Desktop/Upwork/ReservationApp/src/common/HeaderImage.js">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="8" count="2" type="stmt"/>
-        <line num="11" count="2" type="stmt"/>
+        <line num="8" count="3" type="stmt"/>
+        <line num="11" count="4" type="stmt"/>
       </file>
       <file name="HeaderTitle.js" path="/Users/andy/Desktop/Upwork/ReservationApp/src/common/HeaderTitle.js">
-        <metrics statements="2" coveredstatements="2" conditionals="5" coveredconditionals="4" methods="2" coveredmethods="1"/>
-        <line num="17" count="2" type="stmt"/>
-        <line num="30" count="2" type="stmt"/>
+        <metrics statements="2" coveredstatements="2" conditionals="5" coveredconditionals="5" methods="2" coveredmethods="1"/>
+        <line num="17" count="4" type="stmt"/>
+        <line num="30" count="5" type="stmt"/>
       </file>
       <file name="InputRegular.js" path="/Users/andy/Desktop/Upwork/ReservationApp/src/common/InputRegular.js">
         <metrics statements="6" coveredstatements="3" conditionals="6" coveredconditionals="5" methods="5" coveredmethods="1"/>
-        <line num="14" count="1" type="stmt"/>
-        <line num="16" count="1" type="stmt"/>
+        <line num="14" count="5" type="stmt"/>
+        <line num="16" count="5" type="stmt"/>
         <line num="21" count="0" type="stmt"/>
         <line num="22" count="0" type="stmt"/>
         <line num="23" count="0" type="stmt"/>
-        <line num="33" count="2" type="stmt"/>
+        <line num="33" count="3" type="stmt"/>
       </file>
       <file name="LoadingIndicator.js" path="/Users/andy/Desktop/Upwork/ReservationApp/src/common/LoadingIndicator.js">
         <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="19" count="2" type="stmt"/>
+        <line num="19" count="1" type="stmt"/>
         <line num="32" count="2" type="stmt"/>
       </file>
     </package>
-    <package name="src.common.img">
+    <package name="common.img">
       <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       <file name="hotel-front-desk.jpeg" path="/Users/andy/Desktop/Upwork/ReservationApp/src/common/img/hotel-front-desk.jpeg">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="1" count="2" type="stmt"/>
+        <line num="1" count="4" type="stmt"/>
       </file>
       <file name="index.js" path="/Users/andy/Desktop/Upwork/ReservationApp/src/common/img/index.js">
         <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       </file>
     </package>
-    <package name="src.graphql.mutations">
+    <package name="graphql.mutations">
       <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       <file name="createReservations.js" path="/Users/andy/Desktop/Upwork/ReservationApp/src/graphql/mutations/createReservations.js">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="3" count="1" type="stmt"/>
+        <line num="3" count="2" type="stmt"/>
       </file>
     </package>
-    <package name="src.graphql.queries">
+    <package name="graphql.queries">
       <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       <file name="reservationQuery.js" path="/Users/andy/Desktop/Upwork/ReservationApp/src/graphql/queries/reservationQuery.js">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="3" count="1" type="stmt"/>
+        <line num="3" count="2" type="stmt"/>
       </file>
     </package>
-    <package name="src.tabs.reservations">
-      <metrics statements="72" coveredstatements="45" conditionals="41" coveredconditionals="13" methods="21" coveredmethods="6"/>
+    <package name="tabs.reservations">
+      <metrics statements="72" coveredstatements="55" conditionals="41" coveredconditionals="21" methods="21" coveredmethods="10"/>
       <file name="Reservations.js" path="/Users/andy/Desktop/Upwork/ReservationApp/src/tabs/reservations/Reservations.js">
-        <metrics statements="12" coveredstatements="9" conditionals="6" coveredconditionals="2" methods="3" coveredmethods="1"/>
+        <metrics statements="12" coveredstatements="3" conditionals="6" coveredconditionals="0" methods="3" coveredmethods="0"/>
         <line num="20" count="1" type="stmt"/>
         <line num="29" count="1" type="stmt"/>
-        <line num="30" count="1" type="stmt"/>
-        <line num="32" count="1" type="stmt"/>
-        <line num="33" count="1" type="stmt"/>
-        <line num="35" count="1" type="stmt"/>
+        <line num="30" count="0" type="stmt"/>
+        <line num="32" count="0" type="stmt"/>
+        <line num="33" count="0" type="stmt"/>
+        <line num="35" count="0" type="stmt"/>
         <line num="36" count="0" type="stmt"/>
-        <line num="39" count="1" type="cond" truecount="2" falsecount="2"/>
-        <line num="40" count="1" type="stmt"/>
+        <line num="39" count="0" type="cond" truecount="0" falsecount="4"/>
+        <line num="40" count="0" type="stmt"/>
         <line num="48" count="0" type="cond" truecount="0" falsecount="2"/>
         <line num="51" count="0" type="stmt"/>
         <line num="59" count="1" type="stmt"/>
       </file>
       <file name="ReservationsHeader.js" path="/Users/andy/Desktop/Upwork/ReservationApp/src/tabs/reservations/ReservationsHeader.js">
-        <metrics statements="2" coveredstatements="2" conditionals="1" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="16" count="1" type="stmt"/>
-        <line num="22" count="1" type="stmt"/>
+        <metrics statements="2" coveredstatements="2" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
+        <line num="16" count="2" type="stmt"/>
+        <line num="22" count="3" type="stmt"/>
       </file>
       <file name="ReservationsList.js" path="/Users/andy/Desktop/Upwork/ReservationApp/src/tabs/reservations/ReservationsList.js">
-        <metrics statements="6" coveredstatements="1" conditionals="6" coveredconditionals="0" methods="4" coveredmethods="0"/>
-        <line num="20" count="0" type="stmt"/>
+        <metrics statements="6" coveredstatements="5" conditionals="6" coveredconditionals="4" methods="4" coveredmethods="2"/>
+        <line num="20" count="5" type="stmt"/>
         <line num="22" count="0" type="stmt"/>
-        <line num="25" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="26" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="27" count="0" type="stmt"/>
-        <line num="38" count="1" type="stmt"/>
+        <line num="25" count="4" type="cond" truecount="1" falsecount="1"/>
+        <line num="26" count="4" type="cond" truecount="1" falsecount="1"/>
+        <line num="27" count="4" type="stmt"/>
+        <line num="38" count="2" type="stmt"/>
       </file>
       <file name="ReservationsListItem.js" path="/Users/andy/Desktop/Upwork/ReservationApp/src/tabs/reservations/ReservationsListItem.js">
-        <metrics statements="5" coveredstatements="1" conditionals="3" coveredconditionals="0" methods="2" coveredmethods="0"/>
-        <line num="15" count="0" type="cond" truecount="0" falsecount="2"/>
+        <metrics statements="5" coveredstatements="2" conditionals="3" coveredconditionals="1" methods="2" coveredmethods="1"/>
+        <line num="15" count="4" type="cond" truecount="1" falsecount="1"/>
         <line num="16" count="0" type="stmt"/>
         <line num="17" count="0" type="stmt"/>
         <line num="22" count="0" type="stmt"/>
-        <line num="37" count="1" type="stmt"/>
+        <line num="37" count="3" type="stmt"/>
       </file>
       <file name="ReservationsScheduler.js" path="/Users/andy/Desktop/Upwork/ReservationApp/src/tabs/reservations/ReservationsScheduler.js">
-        <metrics statements="16" coveredstatements="1" conditionals="9" coveredconditionals="0" methods="6" coveredmethods="0"/>
-        <line num="23" count="0" type="stmt"/>
-        <line num="24" count="0" type="stmt"/>
-        <line num="25" count="0" type="stmt"/>
-        <line num="26" count="0" type="stmt"/>
-        <line num="28" count="0" type="stmt"/>
-        <line num="29" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="30" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="31" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="32" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="34" count="0" type="stmt"/>
-        <line num="48" count="0" type="stmt"/>
+        <metrics statements="16" coveredstatements="12" conditionals="9" coveredconditionals="4" methods="6" coveredmethods="2"/>
+        <line num="23" count="3" type="stmt"/>
+        <line num="24" count="3" type="stmt"/>
+        <line num="25" count="3" type="stmt"/>
+        <line num="26" count="3" type="stmt"/>
+        <line num="28" count="3" type="stmt"/>
+        <line num="29" count="3" type="cond" truecount="1" falsecount="1"/>
+        <line num="30" count="3" type="cond" truecount="1" falsecount="1"/>
+        <line num="31" count="3" type="cond" truecount="1" falsecount="1"/>
+        <line num="32" count="3" type="cond" truecount="1" falsecount="1"/>
+        <line num="34" count="3" type="stmt"/>
+        <line num="48" count="1" type="stmt"/>
         <line num="78" count="0" type="stmt"/>
         <line num="88" count="0" type="stmt"/>
         <line num="89" count="0" type="stmt"/>
         <line num="91" count="0" type="stmt"/>
-        <line num="101" count="1" type="stmt"/>
-      </file>
-      <file name="index.js" path="/Users/andy/Desktop/Upwork/ReservationApp/src/tabs/reservations/index.js">
-        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="101" count="2" type="stmt"/>
       </file>
       <file name="sortReservations.js" path="/Users/andy/Desktop/Upwork/ReservationApp/src/tabs/reservations/sortReservations.js">
         <metrics statements="31" coveredstatements="31" conditionals="16" coveredconditionals="11" methods="5" coveredmethods="4"/>
@@ -170,7 +151,7 @@
         <line num="49" count="2" type="stmt"/>
       </file>
     </package>
-    <package name="src.theme">
+    <package name="theme">
       <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       <file name="borderBox.js" path="/Users/andy/Desktop/Upwork/ReservationApp/src/theme/borderBox.js">
         <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
@@ -180,11 +161,11 @@
       </file>
       <file name="constants.js" path="/Users/andy/Desktop/Upwork/ReservationApp/src/theme/constants.js">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="2" count="6" type="stmt"/>
+        <line num="2" count="10" type="stmt"/>
       </file>
       <file name="elevation.js" path="/Users/andy/Desktop/Upwork/ReservationApp/src/theme/elevation.js">
         <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
-        <line num="4" count="6" type="stmt"/>
+        <line num="4" count="10" type="stmt"/>
       </file>
       <file name="fonts.js" path="/Users/andy/Desktop/Upwork/ReservationApp/src/theme/fonts.js">
         <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
@@ -194,6 +175,19 @@
       </file>
       <file name="index.js" path="/Users/andy/Desktop/Upwork/ReservationApp/src/theme/index.js">
         <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+    </package>
+    <package name="utils">
+      <metrics statements="7" coveredstatements="7" conditionals="2" coveredconditionals="2" methods="4" coveredmethods="4"/>
+      <file name="ErrorBoundary.js" path="/Users/andy/Desktop/Upwork/ReservationApp/src/utils/ErrorBoundary.js">
+        <metrics statements="7" coveredstatements="7" conditionals="2" coveredconditionals="2" methods="4" coveredmethods="4"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="21" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="23" count="1" type="stmt"/>
+        <line num="26" count="1" type="stmt"/>
       </file>
     </package>
   </project>

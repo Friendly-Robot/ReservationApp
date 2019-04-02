@@ -1,0 +1,10 @@
+045476d8b312e00e01621c5ff331c2a5
+"use strict";
+
+const HTMLElementImpl = require("./HTMLElement-impl").implementation;
+
+class HTMLMarqueeElementImpl extends HTMLElementImpl {}
+
+module.exports = {
+  implementation: HTMLMarqueeElementImpl
+};

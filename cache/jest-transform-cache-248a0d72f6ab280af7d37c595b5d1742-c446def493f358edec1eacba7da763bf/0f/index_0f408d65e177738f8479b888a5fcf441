@@ -1,0 +1,5 @@
+0d4357444610de6103563828abcd6e37
+'use strict';
+/* eslint global-require: 0 */
+
+module.exports = require('./ReactSixteenAdapter');

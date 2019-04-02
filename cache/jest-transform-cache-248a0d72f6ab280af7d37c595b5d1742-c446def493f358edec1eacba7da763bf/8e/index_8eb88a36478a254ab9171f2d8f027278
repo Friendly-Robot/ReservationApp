@@ -1,0 +1,2 @@
+6bc5ac1968849a8c879866d1ca9f61ae
+module.exports = require('./lib/stacktrace-parser.js');

@@ -1,0 +1,10 @@
+b56bcbb8419f3f4bb57f28157a2aceb0
+"use strict";
+
+const HTMLElementImpl = require("./HTMLElement-impl").implementation;
+
+class HTMLUnknownElementImpl extends HTMLElementImpl {}
+
+module.exports = {
+  implementation: HTMLUnknownElementImpl
+};

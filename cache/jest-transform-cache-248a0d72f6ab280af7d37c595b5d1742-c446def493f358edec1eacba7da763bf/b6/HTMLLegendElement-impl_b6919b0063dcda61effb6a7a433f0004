@@ -1,0 +1,19 @@
+051a5123b37d0906a19dc3b7c98e9028
+"use strict";
+
+const HTMLElementImpl = require("./HTMLElement-impl").implementation;
+
+const {
+  formOwner
+} = require("../helpers/form-controls");
+
+class HTMLLegendElementImpl extends HTMLElementImpl {
+  get form() {
+    return formOwner(this);
+  }
+
+}
+
+module.exports = {
+  implementation: HTMLLegendElementImpl
+};

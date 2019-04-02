@@ -1,0 +1,11 @@
+acb736d7631aeedc8073f82f5a050d9a
+/*!
+ * mime-db
+ * Copyright(c) 2014 Jonathan Ong
+ * MIT Licensed
+ */
+
+/**
+ * Module exports.
+ */
+module.exports = require('./db.json');

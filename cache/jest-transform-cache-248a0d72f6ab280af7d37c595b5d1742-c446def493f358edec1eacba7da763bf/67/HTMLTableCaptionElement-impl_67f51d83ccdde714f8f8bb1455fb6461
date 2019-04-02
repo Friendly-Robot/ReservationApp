@@ -1,0 +1,10 @@
+c71f5c49c2869aecbe7900a466d09c5c
+"use strict";
+
+const HTMLElementImpl = require("./HTMLElement-impl").implementation;
+
+class HTMLTableCaptionElementImpl extends HTMLElementImpl {}
+
+module.exports = {
+  implementation: HTMLTableCaptionElementImpl
+};

@@ -1,0 +1,17 @@
+03133af94e9d641d4bf0ef51f7e20b93
+"use strict";
+
+class AbortControllerImpl {
+  constructor(args, privateData) {
+    this.signal = privateData.AbortSignal.createImpl([]);
+  }
+
+  abort() {
+    this.signal._signalAbort();
+  }
+
+}
+
+module.exports = {
+  implementation: AbortControllerImpl
+};

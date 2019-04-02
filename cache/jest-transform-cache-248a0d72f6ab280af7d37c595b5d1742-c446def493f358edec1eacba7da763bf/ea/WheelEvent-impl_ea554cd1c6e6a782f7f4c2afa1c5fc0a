@@ -1,0 +1,13 @@
+f43b4fdc7008a2fc2fe144caa59ae105
+"use strict";
+
+const MouseEventImpl = require("./MouseEvent-impl").implementation;
+
+const WheelEventInit = require("../generated/WheelEventInit");
+
+class WheelEventImpl extends MouseEventImpl {}
+
+WheelEventImpl.defaultInit = WheelEventInit.convert(undefined);
+module.exports = {
+  implementation: WheelEventImpl
+};

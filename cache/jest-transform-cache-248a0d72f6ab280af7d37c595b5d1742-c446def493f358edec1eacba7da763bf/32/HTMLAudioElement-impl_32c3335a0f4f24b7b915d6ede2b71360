@@ -1,0 +1,10 @@
+2b1b7949df6fed30cb597987e5b046a8
+"use strict";
+
+const HTMLMediaElementImpl = require("./HTMLMediaElement-impl").implementation;
+
+class HTMLAudioElementImpl extends HTMLMediaElementImpl {}
+
+module.exports = {
+  implementation: HTMLAudioElementImpl
+};

@@ -1,0 +1,10 @@
+833a5d5039b56627ed48d82c41f67bff
+"use strict";
+
+const HTMLElementImpl = require("./HTMLElement-impl").implementation;
+
+class HTMLBRElementImpl extends HTMLElementImpl {}
+
+module.exports = {
+  implementation: HTMLBRElementImpl
+};

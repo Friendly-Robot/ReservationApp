@@ -1,0 +1,5 @@
+818a840555d09e5c4db59e2a47d66c2a
+"use strict";
+
+module.exports = require("./DOMException").interface;
+Object.setPrototypeOf(module.exports.prototype, Error.prototype);

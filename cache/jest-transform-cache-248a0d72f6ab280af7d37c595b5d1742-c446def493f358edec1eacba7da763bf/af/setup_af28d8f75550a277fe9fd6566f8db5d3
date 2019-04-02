@@ -1,0 +1,177 @@
+d531aa3556363c101ec6a644a21e1026
+var cov_2gbs8i9k58 = function () {
+  var path = "/Users/andy/Desktop/Upwork/ReservationApp/src/setup.js";
+  var hash = "a8fd6828a92c2809f248a8ebbc099f6fdd9d5887";
+
+  var Function = function () {}.constructor;
+
+  var global = new Function("return this")();
+  var gcv = "__coverage__";
+  var coverageData = {
+    path: "/Users/andy/Desktop/Upwork/ReservationApp/src/setup.js",
+    statementMap: {
+      "0": {
+        start: {
+          line: 18,
+          column: 4
+        },
+        end: {
+          line: 18,
+          column: 12
+        }
+      },
+      "1": {
+        start: {
+          line: 19,
+          column: 4
+        },
+        end: {
+          line: 21,
+          column: 7
+        }
+      },
+      "2": {
+        start: {
+          line: 24,
+          column: 4
+        },
+        end: {
+          line: 28,
+          column: 6
+        }
+      }
+    },
+    fnMap: {
+      "0": {
+        name: "(anonymous_0)",
+        decl: {
+          start: {
+            line: 17,
+            column: 2
+          },
+          end: {
+            line: 17,
+            column: 3
+          }
+        },
+        loc: {
+          start: {
+            line: 17,
+            column: 16
+          },
+          end: {
+            line: 22,
+            column: 3
+          }
+        },
+        line: 17
+      },
+      "1": {
+        name: "(anonymous_1)",
+        decl: {
+          start: {
+            line: 23,
+            column: 2
+          },
+          end: {
+            line: 23,
+            column: 3
+          }
+        },
+        loc: {
+          start: {
+            line: 23,
+            column: 11
+          },
+          end: {
+            line: 29,
+            column: 3
+          }
+        },
+        line: 23
+      }
+    },
+    branchMap: {},
+    s: {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    f: {
+      "0": 0,
+      "1": 0
+    },
+    b: {},
+    _coverageSchema: "43e27e138ebf9cfc5966b082cf9a028302ed4184"
+  };
+  var coverage = global[gcv] || (global[gcv] = {});
+
+  if (coverage[path] && coverage[path].hash === hash) {
+    return coverage[path];
+  }
+
+  coverageData.hash = hash;
+  return coverage[path] = coverageData;
+}();
+
+var _interopRequireWildcard = require("@babel/runtime/helpers/interopRequireWildcard");
+
+var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _classCallCheck2 = _interopRequireDefault(require("@babel/runtime/helpers/classCallCheck"));
+
+var _createClass2 = _interopRequireDefault(require("@babel/runtime/helpers/createClass"));
+
+var _possibleConstructorReturn2 = _interopRequireDefault(require("@babel/runtime/helpers/possibleConstructorReturn"));
+
+var _getPrototypeOf2 = _interopRequireDefault(require("@babel/runtime/helpers/getPrototypeOf"));
+
+var _inherits2 = _interopRequireDefault(require("@babel/runtime/helpers/inherits"));
+
+var _react = _interopRequireWildcard(require("react"));
+
+var _reactApollo = require("react-apollo");
+
+var _apolloBoost = _interopRequireDefault(require("apollo-boost"));
+
+var _App = _interopRequireDefault(require("./App"));
+
+var _env = _interopRequireDefault(require("./env"));
+
+var Root = function (_PureComponent) {
+  (0, _inherits2.default)(Root, _PureComponent);
+
+  function Root() {
+    var _this;
+
+    (0, _classCallCheck2.default)(this, Root);
+    cov_2gbs8i9k58.f[0]++;
+    cov_2gbs8i9k58.s[0]++;
+    _this = (0, _possibleConstructorReturn2.default)(this, (0, _getPrototypeOf2.default)(Root).call(this));
+    cov_2gbs8i9k58.s[1]++;
+    _this.client = new _apolloBoost.default({
+      uri: _env.default.graphqlURL
+    });
+    return _this;
+  }
+
+  (0, _createClass2.default)(Root, [{
+    key: "render",
+    value: function render() {
+      cov_2gbs8i9k58.f[1]++;
+      cov_2gbs8i9k58.s[2]++;
+      return _react.default.createElement(_reactApollo.ApolloProvider, {
+        client: this.client
+      }, _react.default.createElement(_App.default, null));
+    }
+  }]);
+  return Root;
+}(_react.PureComponent);
+
+exports.default = Root;
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNldHVwLmpzIl0sIm5hbWVzIjpbIlJvb3QiLCJjbGllbnQiLCJBcG9sbG9DbGllbnQiLCJ1cmkiLCJlbnYiLCJncmFwaHFsVVJMIiwiUHVyZUNvbXBvbmVudCJdLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7QUFRQTs7QUFDQTs7QUFDQTs7QUFDQTs7QUFDQTs7SUFHcUJBLEk7OztBQUNuQixrQkFBYztBQUFBOztBQUFBO0FBQUE7QUFBQTtBQUNaO0FBRFk7QUFFWixVQUFLQyxNQUFMLEdBQWMsSUFBSUMsb0JBQUosQ0FBaUI7QUFDN0JDLE1BQUFBLEdBQUcsRUFBRUMsYUFBSUM7QUFEb0IsS0FBakIsQ0FBZDtBQUZZO0FBS2I7Ozs7NkJBQ1E7QUFBQTtBQUFBO0FBQ1AsYUFDRSw2QkFBQywyQkFBRDtBQUFnQixRQUFBLE1BQU0sRUFBRSxLQUFLSjtBQUE3QixTQUNFLDZCQUFDLFlBQUQsT0FERixDQURGO0FBS0Q7OztFQWIrQkssb0IiLCJzb3VyY2VzQ29udGVudCI6WyIvKipcbiAqIFNhbXBsZSBSZWFjdCBOYXRpdmUgQXBwXG4gKiBodHRwczovL2dpdGh1Yi5jb20vZmFjZWJvb2svcmVhY3QtbmF0aXZlXG4gKlxuICogQGZvcm1hdFxuICogQGZsb3dcbiAqL1xuXG5pbXBvcnQgUmVhY3QsIHtQdXJlQ29tcG9uZW50fSBmcm9tICdyZWFjdCc7XG5pbXBvcnQgeyBBcG9sbG9Qcm92aWRlciB9IGZyb20gJ3JlYWN0LWFwb2xsbyc7XG5pbXBvcnQgQXBvbGxvQ2xpZW50IGZyb20gJ2Fwb2xsby1ib29zdCc7XG5pbXBvcnQgQXBwIGZyb20gJy4vQXBwJztcbmltcG9ydCBlbnYgZnJvbSAnLi9lbnYnO1xuXG50eXBlIFByb3BzID0ge307XG5leHBvcnQgZGVmYXVsdCBjbGFzcyBSb290IGV4dGVuZHMgUHVyZUNvbXBvbmVudDxQcm9wcz4ge1xuICBjb25zdHJ1Y3RvcigpIHtcbiAgICBzdXBlcigpO1xuICAgIHRoaXMuY2xpZW50ID0gbmV3IEFwb2xsb0NsaWVudCh7XG4gICAgICB1cmk6IGVudi5ncmFwaHFsVVJMLFxuICAgIH0pO1xuICB9XG4gIHJlbmRlcigpIHtcbiAgICByZXR1cm4gKFxuICAgICAgPEFwb2xsb1Byb3ZpZGVyIGNsaWVudD17dGhpcy5jbGllbnR9PlxuICAgICAgICA8QXBwIC8+XG4gICAgICA8L0Fwb2xsb1Byb3ZpZGVyPlxuICAgICk7XG4gIH1cbn1cbiJdfQ==

@@ -1,0 +1,9 @@
+248c57055fdcef7cb2e86cdbd31e910b
+"use strict";
+
+exports.implementation = class NavigatorOnLineImpl {
+  get onLine() {
+    return true;
+  }
+
+};

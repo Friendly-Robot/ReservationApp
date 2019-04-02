@@ -1,0 +1,11 @@
+ce8cb691c92de369a34a9753f066af97
+"use strict";
+
+const EventImpl = require("./Event-impl.js").implementation;
+
+const PopStateEventInit = require("../generated/PopStateEventInit");
+
+class PopStateEventImpl extends EventImpl {}
+
+PopStateEventImpl.defaultInit = PopStateEventInit.convert(undefined);
+exports.implementation = PopStateEventImpl;

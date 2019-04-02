@@ -1,0 +1,10 @@
+aeb0ced8573ebb678c7902edfbfc2ef8
+"use strict";
+
+exports.implementation = class NavigatorLanguageImpl {
+  get language() {
+    return "en-US";
+  } // See Navigator constructor for languages
+
+
+};

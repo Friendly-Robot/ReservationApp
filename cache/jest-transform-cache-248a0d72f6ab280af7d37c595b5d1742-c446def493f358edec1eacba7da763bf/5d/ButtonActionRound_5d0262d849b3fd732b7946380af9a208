@@ -1,0 +1,216 @@
+e1a71a653b02e3044a5779f258f52d9d
+var cov_sd0kalgyv = function () {
+  var path = "/Users/andy/Desktop/Upwork/ReservationApp/src/common/ButtonActionRound.js";
+  var hash = "952295fcc1ec8d62d6357dcb939eca3ced2650b3";
+
+  var Function = function () {}.constructor;
+
+  var global = new Function("return this")();
+  var gcv = "__coverage__";
+  var coverageData = {
+    path: "/Users/andy/Desktop/Upwork/ReservationApp/src/common/ButtonActionRound.js",
+    statementMap: {
+      "0": {
+        start: {
+          line: 12,
+          column: 2
+        },
+        end: {
+          line: 20,
+          column: 9
+        }
+      },
+      "1": {
+        start: {
+          line: 23,
+          column: 15
+        },
+        end: {
+          line: 45,
+          column: 2
+        }
+      }
+    },
+    fnMap: {
+      "0": {
+        name: "(anonymous_0)",
+        decl: {
+          start: {
+            line: 11,
+            column: 35
+          },
+          end: {
+            line: 11,
+            column: 36
+          }
+        },
+        loc: {
+          start: {
+            line: 12,
+            column: 2
+          },
+          end: {
+            line: 20,
+            column: 9
+          }
+        },
+        line: 12
+      },
+      "1": {
+        name: "(anonymous_1)",
+        decl: {
+          start: {
+            line: 11,
+            column: 48
+          },
+          end: {
+            line: 11,
+            column: 49
+          }
+        },
+        loc: {
+          start: {
+            line: 11,
+            column: 54
+          },
+          end: {
+            line: 11,
+            column: 56
+          }
+        },
+        line: 11
+      }
+    },
+    branchMap: {
+      "0": {
+        loc: {
+          start: {
+            line: 11,
+            column: 38
+          },
+          end: {
+            line: 11,
+            column: 56
+          }
+        },
+        type: "default-arg",
+        locations: [{
+          start: {
+            line: 11,
+            column: 48
+          },
+          end: {
+            line: 11,
+            column: 56
+          }
+        }],
+        line: 11
+      },
+      "1": {
+        loc: {
+          start: {
+            line: 11,
+            column: 58
+          },
+          end: {
+            line: 11,
+            column: 68
+          }
+        },
+        type: "default-arg",
+        locations: [{
+          start: {
+            line: 11,
+            column: 65
+          },
+          end: {
+            line: 11,
+            column: 68
+          }
+        }],
+        line: 11
+      }
+    },
+    s: {
+      "0": 0,
+      "1": 0
+    },
+    f: {
+      "0": 0,
+      "1": 0
+    },
+    b: {
+      "0": [0],
+      "1": [0]
+    },
+    _coverageSchema: "43e27e138ebf9cfc5966b082cf9a028302ed4184"
+  };
+  var coverage = global[gcv] || (global[gcv] = {});
+
+  if (coverage[path] && coverage[path].hash === hash) {
+    return coverage[path];
+  }
+
+  coverageData.hash = hash;
+  return coverage[path] = coverageData;
+}();
+
+var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _objectSpread2 = _interopRequireDefault(require("@babel/runtime/helpers/objectSpread"));
+
+var _react = _interopRequireDefault(require("react"));
+
+var _reactNative = require("react-native");
+
+var _theme = _interopRequireDefault(require("../theme"));
+
+var _default = ButtonActionRound = function ButtonActionRound(_ref) {
+  var _ref$onPress = _ref.onPress,
+      onPress = _ref$onPress === void 0 ? (cov_sd0kalgyv.b[0][0]++, function () {
+    cov_sd0kalgyv.f[1]++;
+  }) : _ref$onPress,
+      _ref$icon = _ref.icon,
+      icon = _ref$icon === void 0 ? (cov_sd0kalgyv.b[1][0]++, '+') : _ref$icon;
+  cov_sd0kalgyv.f[0]++;
+  cov_sd0kalgyv.s[0]++;
+  return _react.default.createElement(_reactNative.View, {
+    style: styles.container
+  }, _react.default.createElement(_reactNative.TouchableOpacity, {
+    activeOpacity: 0.6,
+    onPress: onPress,
+    style: styles.button
+  }, _react.default.createElement(_reactNative.Text, {
+    style: styles.icon
+  }, icon)));
+};
+
+exports.default = _default;
+var styles = (cov_sd0kalgyv.s[1]++, _reactNative.StyleSheet.create({
+  button: (0, _objectSpread2.default)({
+    alignItems: 'center',
+    backgroundColor: _theme.default.COLOR_PRIMARY,
+    borderRadius: _theme.default.BORDER_RADIUS_ROUND
+  }, _theme.default.elevation, {
+    height: 50,
+    justifyContent: 'center',
+    width: 50
+  }),
+  container: {
+    backgroundColor: 'transparent',
+    bottom: 25,
+    position: 'absolute',
+    right: 15,
+    zIndex: 10
+  },
+  icon: {
+    color: _theme.default.COLOR_WHITE,
+    fontSize: 35
+  }
+}));
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkJ1dHRvbkFjdGlvblJvdW5kLmpzIl0sIm5hbWVzIjpbIkJ1dHRvbkFjdGlvblJvdW5kIiwib25QcmVzcyIsImljb24iLCJzdHlsZXMiLCJjb250YWluZXIiLCJidXR0b24iLCJTdHlsZVNoZWV0IiwiY3JlYXRlIiwiYWxpZ25JdGVtcyIsImJhY2tncm91bmRDb2xvciIsInRoZW1lIiwiQ09MT1JfUFJJTUFSWSIsImJvcmRlclJhZGl1cyIsIkJPUkRFUl9SQURJVVNfUk9VTkQiLCJlbGV2YXRpb24iLCJoZWlnaHQiLCJqdXN0aWZ5Q29udGVudCIsIndpZHRoIiwiYm90dG9tIiwicG9zaXRpb24iLCJyaWdodCIsInpJbmRleCIsImNvbG9yIiwiQ09MT1JfV0hJVEUiLCJmb250U2l6ZSJdLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O0FBQUE7O0FBQ0E7O0FBRUE7O2VBT2VBLGlCQUFpQixHQUFHLGlDQUNqQztBQUFBLDBCQURvQ0MsT0FDcEM7QUFBQSxNQURvQ0EsT0FDcEMsdURBRDhDLFlBQU07QUFBQTtBQUFFLEdBQ3REO0FBQUEsdUJBRHdEQyxJQUN4RDtBQUFBLE1BRHdEQSxJQUN4RCxvREFEK0QsR0FDL0Q7QUFBQTtBQUFBO0FBQUEsc0NBQUMsaUJBQUQ7QUFBTSxJQUFBLEtBQUssRUFBRUMsTUFBTSxDQUFDQztBQUFwQixLQUNFLDZCQUFDLDZCQUFEO0FBQ0UsSUFBQSxhQUFhLEVBQUUsR0FEakI7QUFFRSxJQUFBLE9BQU8sRUFBRUgsT0FGWDtBQUdFLElBQUEsS0FBSyxFQUFFRSxNQUFNLENBQUNFO0FBSGhCLEtBS0UsNkJBQUMsaUJBQUQ7QUFBTSxJQUFBLEtBQUssRUFBRUYsTUFBTSxDQUFDRDtBQUFwQixLQUE0QkEsSUFBNUIsQ0FMRixDQURGO0FBUU8sQzs7O0FBR1QsSUFBTUMsTUFBTSwwQkFBR0csd0JBQVdDLE1BQVgsQ0FBa0I7QUFDL0JGLEVBQUFBLE1BQU07QUFDSkcsSUFBQUEsVUFBVSxFQUFFLFFBRFI7QUFFSkMsSUFBQUEsZUFBZSxFQUFFQyxlQUFNQyxhQUZuQjtBQUdKQyxJQUFBQSxZQUFZLEVBQUVGLGVBQU1HO0FBSGhCLEtBSURILGVBQU1JLFNBSkw7QUFLSkMsSUFBQUEsTUFBTSxFQUFFLEVBTEo7QUFNSkMsSUFBQUEsY0FBYyxFQUFFLFFBTlo7QUFPSkMsSUFBQUEsS0FBSyxFQUFFO0FBUEgsSUFEeUI7QUFXL0JiLEVBQUFBLFNBQVMsRUFBRTtBQUNUSyxJQUFBQSxlQUFlLEVBQUUsYUFEUjtBQUVUUyxJQUFBQSxNQUFNLEVBQUUsRUFGQztBQUdUQyxJQUFBQSxRQUFRLEVBQUUsVUFIRDtBQUlUQyxJQUFBQSxLQUFLLEVBQUUsRUFKRTtBQUtUQyxJQUFBQSxNQUFNLEVBQUU7QUFMQyxHQVhvQjtBQWtCL0JuQixFQUFBQSxJQUFJLEVBQUU7QUFDSm9CLElBQUFBLEtBQUssRUFBRVosZUFBTWEsV0FEVDtBQUVKQyxJQUFBQSxRQUFRLEVBQUU7QUFGTjtBQWxCeUIsQ0FBbEIsQ0FBSCxDQUFaIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IFJlYWN0IGZyb20gJ3JlYWN0JztcbmltcG9ydCB7IFN0eWxlU2hlZXQsIFRleHQsIFRvdWNoYWJsZU9wYWNpdHksIFZpZXcgfSBmcm9tICdyZWFjdC1uYXRpdmUnO1xuXG5pbXBvcnQgdGhlbWUgZnJvbSAnLi4vdGhlbWUnO1xuXG50eXBlIGJ1dHRvblByb3BzID0ge1xuICBpY29uOiBzdHJpbmcsXG4gIG9uUHJlc3M6IEZ1bmN0aW9uLFxufTtcblxuZXhwb3J0IGRlZmF1bHQgQnV0dG9uQWN0aW9uUm91bmQgPSAoeyBvblByZXNzID0gKCkgPT4ge30sIGljb24gPSAnKycgfTogYnV0dG9uUHJvcHMpID0+IChcbiAgPFZpZXcgc3R5bGU9e3N0eWxlcy5jb250YWluZXJ9PlxuICAgIDxUb3VjaGFibGVPcGFjaXR5XG4gICAgICBhY3RpdmVPcGFjaXR5PXswLjZ9XG4gICAgICBvblByZXNzPXtvblByZXNzfVxuICAgICAgc3R5bGU9e3N0eWxlcy5idXR0b259ICBcbiAgICA+XG4gICAgICA8VGV4dCBzdHlsZT17c3R5bGVzLmljb259PnsgaWNvbiB9PC9UZXh0PlxuICAgIDwvVG91Y2hhYmxlT3BhY2l0eT5cbiAgPC9WaWV3PlxuKTtcblxuY29uc3Qgc3R5bGVzID0gU3R5bGVTaGVldC5jcmVhdGUoe1xuICBidXR0b246IHtcbiAgICBhbGlnbkl0ZW1zOiAnY2VudGVyJyxcbiAgICBiYWNrZ3JvdW5kQ29sb3I6IHRoZW1lLkNPTE9SX1BSSU1BUlksXG4gICAgYm9yZGVyUmFkaXVzOiB0aGVtZS5CT1JERVJfUkFESVVTX1JPVU5ELFxuICAgIC4uLnRoZW1lLmVsZXZhdGlvbixcbiAgICBoZWlnaHQ6IDUwLFxuICAgIGp1c3RpZnlDb250ZW50OiAnY2VudGVyJyxcbiAgICB3aWR0aDogNTAsXG5cbiAgfSxcbiAgY29udGFpbmVyOiB7XG4gICAgYmFja2dyb3VuZENvbG9yOiAndHJhbnNwYXJlbnQnLFxuICAgIGJvdHRvbTogMjUsXG4gICAgcG9zaXRpb246ICdhYnNvbHV0ZScsXG4gICAgcmlnaHQ6IDE1LFxuICAgIHpJbmRleDogMTAsXG4gIH0sXG4gIGljb246IHtcbiAgICBjb2xvcjogdGhlbWUuQ09MT1JfV0hJVEUsXG4gICAgZm9udFNpemU6IDM1LFxuICB9LFxufSk7Il19

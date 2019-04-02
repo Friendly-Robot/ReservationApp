@@ -1,0 +1,11 @@
+0d36a52c05dd59707157d492d05d1c3a
+"use strict";
+
+const atob = require("./lib/atob");
+
+const btoa = require("./lib/btoa");
+
+module.exports = {
+  atob,
+  btoa
+};

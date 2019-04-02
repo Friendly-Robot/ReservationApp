@@ -1,0 +1,13 @@
+f13ba5271346137457c6b8a381ed0c55
+"use strict";
+
+const UIEventImpl = require("./UIEvent-impl").implementation;
+
+const TouchEventInit = require("../generated/TouchEventInit");
+
+class TouchEventImpl extends UIEventImpl {}
+
+TouchEventImpl.defaultInit = TouchEventInit.convert(undefined);
+module.exports = {
+  implementation: TouchEventImpl
+};

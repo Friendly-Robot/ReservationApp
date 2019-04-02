@@ -1,0 +1,15 @@
+9159fd1ad4c7737f78c5b7c6a2e333bb
+//.CommonJS
+var CSSOM = {}; ///CommonJS
+
+/**
+ * @constructor
+ * @see http://dev.w3.org/csswg/cssom/#the-stylesheet-interface
+ */
+
+CSSOM.StyleSheet = function StyleSheet() {
+  this.parentStyleSheet = null;
+}; //.CommonJS
+
+
+exports.StyleSheet = CSSOM.StyleSheet; ///CommonJS

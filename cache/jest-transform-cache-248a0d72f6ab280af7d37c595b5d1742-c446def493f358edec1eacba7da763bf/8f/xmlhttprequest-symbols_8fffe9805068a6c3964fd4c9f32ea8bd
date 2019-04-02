@@ -1,0 +1,5 @@
+6596a7279c9dcb35f04eb28b55bdbf50
+"use strict";
+
+exports.flag = Symbol("flag");
+exports.properties = Symbol("properties");

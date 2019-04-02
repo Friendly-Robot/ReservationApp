@@ -1,0 +1,38 @@
+10dbac262a8e968636758199664514b8
+var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
+
+require("react-native");
+
+var _react = _interopRequireDefault(require("react"));
+
+var _jestMock = _interopRequireDefault(require("jest-mock"));
+
+var _ReservationsList = _interopRequireDefault(require("../ReservationsList"));
+
+var _reactTestRenderer = _interopRequireDefault(require("react-test-renderer"));
+
+describe('<ReservationsList />', function () {
+  var props;
+  beforeEach(function () {
+    props = {
+      hotels: [{
+        hotelName: 'test',
+        __typename: 'Reservation',
+        id: '123456',
+        name: 'Andy',
+        arrivalDate: '04/22/2020',
+        departureDate: '04/22/9999'
+      }],
+      setShowScheduler: _jestMock.default.fn()
+    };
+  });
+  it('should be defined', function () {
+    expect(_ReservationsList.default).toBeDefined();
+  });
+  it('renders correctly', function () {
+    var tree = _reactTestRenderer.default.create(_react.default.createElement(_ReservationsList.default, null)).toJSON();
+
+    expect(tree).toMatchSnapshot();
+  });
+});
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIlJlc2VydmF0aW9uc0xpc3QudGVzdC5qcyJdLCJuYW1lcyI6WyJkZXNjcmliZSIsInByb3BzIiwiYmVmb3JlRWFjaCIsImhvdGVscyIsImhvdGVsTmFtZSIsIl9fdHlwZW5hbWUiLCJpZCIsIm5hbWUiLCJhcnJpdmFsRGF0ZSIsImRlcGFydHVyZURhdGUiLCJzZXRTaG93U2NoZWR1bGVyIiwiamVzdCIsImZuIiwiaXQiLCJleHBlY3QiLCJSZXNlcnZhdGlvbnNMaXN0IiwidG9CZURlZmluZWQiLCJ0cmVlIiwicmVuZGVyZXIiLCJjcmVhdGUiLCJ0b0pTT04iLCJ0b01hdGNoU25hcHNob3QiXSwibWFwcGluZ3MiOiI7O0FBSUE7O0FBQ0E7O0FBQ0E7O0FBRUE7O0FBR0E7O0FBRUFBLFFBQVEsQ0FBQyxzQkFBRCxFQUF5QixZQUFNO0FBQ3JDLE1BQUlDLEtBQUo7QUFFQUMsRUFBQUEsVUFBVSxDQUFDLFlBQU07QUFDZkQsSUFBQUEsS0FBSyxHQUFHO0FBQ05FLE1BQUFBLE1BQU0sRUFBRSxDQUFDO0FBQ1BDLFFBQUFBLFNBQVMsRUFBRSxNQURKO0FBRVBDLFFBQUFBLFVBQVUsRUFBRSxhQUZMO0FBR1BDLFFBQUFBLEVBQUUsRUFBRSxRQUhHO0FBSVBDLFFBQUFBLElBQUksRUFBRSxNQUpDO0FBS1BDLFFBQUFBLFdBQVcsRUFBRSxZQUxOO0FBTVBDLFFBQUFBLGFBQWEsRUFBRTtBQU5SLE9BQUQsQ0FERjtBQVNOQyxNQUFBQSxnQkFBZ0IsRUFBRUMsa0JBQUtDLEVBQUw7QUFUWixLQUFSO0FBV0QsR0FaUyxDQUFWO0FBY0FDLEVBQUFBLEVBQUUsQ0FBQyxtQkFBRCxFQUFzQixZQUFNO0FBQzVCQyxJQUFBQSxNQUFNLENBQUNDLHlCQUFELENBQU4sQ0FBeUJDLFdBQXpCO0FBQ0QsR0FGQyxDQUFGO0FBSUFILEVBQUFBLEVBQUUsQ0FBQyxtQkFBRCxFQUFzQixZQUFNO0FBQzVCLFFBQU1JLElBQUksR0FBR0MsMkJBQVNDLE1BQVQsQ0FBZ0IsNkJBQUMseUJBQUQsT0FBaEIsRUFBc0NDLE1BQXRDLEVBQWI7O0FBQ0FOLElBQUFBLE1BQU0sQ0FBQ0csSUFBRCxDQUFOLENBQWFJLGVBQWI7QUFDRCxHQUhDLENBQUY7QUFJRCxDQXpCTyxDQUFSIiwic291cmNlc0NvbnRlbnQiOlsiLyoqXG4gKiBAZm9ybWF0XG4gKi9cblxuaW1wb3J0ICdyZWFjdC1uYXRpdmUnO1xuaW1wb3J0IFJlYWN0IGZyb20gJ3JlYWN0JztcbmltcG9ydCBqZXN0IGZyb20gJ2plc3QtbW9jayc7XG5cbmltcG9ydCBSZXNlcnZhdGlvbnNMaXN0IGZyb20gJy4uL1Jlc2VydmF0aW9uc0xpc3QnO1xuXG4vLyBOb3RlOiB0ZXN0IHJlbmRlcmVyIG11c3QgYmUgcmVxdWlyZWQgYWZ0ZXIgcmVhY3QtbmF0aXZlLlxuaW1wb3J0IHJlbmRlcmVyIGZyb20gJ3JlYWN0LXRlc3QtcmVuZGVyZXInO1xuXG5kZXNjcmliZSgnPFJlc2VydmF0aW9uc0xpc3QgLz4nLCAoKSA9PiB7XG4gIGxldCBwcm9wcztcblxuICBiZWZvcmVFYWNoKCgpID0+IHtcbiAgICBwcm9wcyA9IHtcbiAgICAgIGhvdGVsczogW3tcbiAgICAgICAgaG90ZWxOYW1lOiAndGVzdCcsXG4gICAgICAgIF9fdHlwZW5hbWU6ICdSZXNlcnZhdGlvbicsXG4gICAgICAgIGlkOiAnMTIzNDU2JyxcbiAgICAgICAgbmFtZTogJ0FuZHknLFxuICAgICAgICBhcnJpdmFsRGF0ZTogJzA0LzIyLzIwMjAnLFxuICAgICAgICBkZXBhcnR1cmVEYXRlOiAnMDQvMjIvOTk5OScsXG4gICAgICB9XSxcbiAgICAgIHNldFNob3dTY2hlZHVsZXI6IGplc3QuZm4oKSxcbiAgICB9XG4gIH0pO1xuXG4gIGl0KCdzaG91bGQgYmUgZGVmaW5lZCcsICgpID0+IHtcbiAgICBleHBlY3QoUmVzZXJ2YXRpb25zTGlzdCkudG9CZURlZmluZWQoKTtcbiAgfSk7XG5cbiAgaXQoJ3JlbmRlcnMgY29ycmVjdGx5JywgKCkgPT4ge1xuICAgIGNvbnN0IHRyZWUgPSByZW5kZXJlci5jcmVhdGUoPFJlc2VydmF0aW9uc0xpc3QgLz4pLnRvSlNPTigpO1xuICAgIGV4cGVjdCh0cmVlKS50b01hdGNoU25hcHNob3QoKTtcbiAgfSk7XG59KVxuIl19

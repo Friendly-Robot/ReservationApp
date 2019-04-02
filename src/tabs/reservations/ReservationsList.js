@@ -57,6 +57,7 @@ renderHotelReservations = (hotels) => (
     <ScrollView contentContainerStyle={styles.scrollContainer}>
       {hotels.map(reservations => {
         if (reservations.length === 0) return null;
+        if (!reservations[0].hotelName) return null;
         return (
           <ReservationsListItem
             key={reservations[0].hotelName}

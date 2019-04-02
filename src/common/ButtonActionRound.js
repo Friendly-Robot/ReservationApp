@@ -4,17 +4,18 @@ import { StyleSheet, Text, TouchableOpacity, View } from 'react-native';
 import theme from '../theme';
 
 type buttonProps = {
+  icon: string,
   onPress: Function,
 };
 
-export default ButtonActionRound = ({ onPress = () => {} }: buttonProps) => (
+export default ButtonActionRound = ({ onPress = () => {}, icon = '+' }: buttonProps) => (
   <View style={styles.container}>
     <TouchableOpacity
       activeOpacity={0.6}
       onPress={onPress}
       style={styles.button}  
     >
-      <Text style={styles.icon}>+</Text>
+      <Text style={styles.icon}>{ icon }</Text>
     </TouchableOpacity>
   </View>
 );

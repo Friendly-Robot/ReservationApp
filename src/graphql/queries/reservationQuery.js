@@ -12,6 +12,4 @@ const reservationQuery = gql`
   }
 `
 
-export default {
-  reservationQuery,
-}
+export default reservationQuery;

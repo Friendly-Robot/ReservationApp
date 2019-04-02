@@ -20,7 +20,7 @@ import theme from '../../theme';
 
 const listDataValues = {
   loading: boolean,
-  reservations: Array,
+  reservations: Array<T>,
 };
 
 type listProps = {

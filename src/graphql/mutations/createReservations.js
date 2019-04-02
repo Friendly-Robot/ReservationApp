@@ -1,6 +1,6 @@
 import gql from 'graphql-tag';
 
-const addReservation = gql`
+const createReservation = gql`
   mutation createReservation($id: ID!, $hotelName: String!, $name: String!, $arrivalDate: String!, $departureDate: String!) {
     createReservation(data: { id: $id, hotelName: $hotelName, name: $name, arrivalDate: $arrivalDate, departureDate: $departureDate,}) {
       id
@@ -12,6 +12,4 @@ const addReservation = gql`
   }
 `;
 
-export default {
-  addReservation,
-}
+export default createReservation;

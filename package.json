@@ -8,11 +8,16 @@
     "reload": "adb shell input keyevent 82 && adb shell input keyevent 66 && adb shell input keyevent 66",
     "devmenu": "adb shell input keyevent 82",
     "debug": "adb shell input keyevent 82 && adb shell input keyevent 61 && adb shell input keyevent 66 && adb shell input keyevent 66",
-    "test": "jest"
+    "test": "jest --runInBand --detectOpenHandles --verbose --coverage",
+    "test:update": "jest --verbose --coverage --updateSnapshot",
+    "test:watch": "jest --verbose --watch",
+    "coverage": "jest --verbose --coverage && open ./coverage/lcov-report/index.html"
   },
   "dependencies": {
     "apollo-boost": "^0.3.1",
+    "enzyme": "^3.9.0",
     "graphql": "^14.2.1",
+    "node-fetch": "^2.3.0",
     "react": "16.8.3",
     "react-apollo": "^2.5.3",
     "react-native": "0.59.3"

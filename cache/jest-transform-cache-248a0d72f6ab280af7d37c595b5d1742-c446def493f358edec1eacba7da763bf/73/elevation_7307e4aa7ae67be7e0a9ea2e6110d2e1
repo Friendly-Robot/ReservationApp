@@ -1,0 +1,68 @@
+cdc64a500441be78bc5d1451b134a143
+var cov_eq7ze2pb3 = function () {
+  var path = "/Users/andy/Desktop/Upwork/ReservationApp/src/theme/elevation.js";
+  var hash = "596b437090329fc8816ca103937eda97d05b0d67";
+
+  var Function = function () {}.constructor;
+
+  var global = new Function("return this")();
+  var gcv = "__coverage__";
+  var coverageData = {
+    path: "/Users/andy/Desktop/Upwork/ReservationApp/src/theme/elevation.js",
+    statementMap: {
+      "0": {
+        start: {
+          line: 4,
+          column: 18
+        },
+        end: {
+          line: 14,
+          column: 2
+        }
+      }
+    },
+    fnMap: {},
+    branchMap: {},
+    s: {
+      "0": 0
+    },
+    f: {},
+    b: {},
+    _coverageSchema: "43e27e138ebf9cfc5966b082cf9a028302ed4184"
+  };
+  var coverage = global[gcv] || (global[gcv] = {});
+
+  if (coverage[path] && coverage[path].hash === hash) {
+    return coverage[path];
+  }
+
+  coverageData.hash = hash;
+  return coverage[path] = coverageData;
+}();
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _reactNative = require("react-native");
+
+var _colors = require("./colors");
+
+var elevation = (cov_eq7ze2pb3.s[0]++, _reactNative.Platform.select({
+  android: {
+    elevation: 2
+  },
+  ios: {
+    shadowOpacity: 0.5,
+    shadowRadius: 2,
+    shadowColor: _colors.COLOR_DARK,
+    shadowOffset: {
+      height: 1,
+      width: 0
+    }
+  }
+}));
+var _default = elevation;
+exports.default = _default;
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImVsZXZhdGlvbi5qcyJdLCJuYW1lcyI6WyJlbGV2YXRpb24iLCJQbGF0Zm9ybSIsInNlbGVjdCIsImFuZHJvaWQiLCJpb3MiLCJzaGFkb3dPcGFjaXR5Iiwic2hhZG93UmFkaXVzIiwic2hhZG93Q29sb3IiLCJDT0xPUl9EQVJLIiwic2hhZG93T2Zmc2V0IiwiaGVpZ2h0Iiwid2lkdGgiXSwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7QUFBQTs7QUFDQTs7QUFFQSxJQUFNQSxTQUFTLDBCQUFHQyxzQkFBU0MsTUFBVCxDQUFnQjtBQUNoQ0MsRUFBQUEsT0FBTyxFQUFFO0FBQ1BILElBQUFBLFNBQVMsRUFBRTtBQURKLEdBRHVCO0FBSWhDSSxFQUFBQSxHQUFHLEVBQUU7QUFDSEMsSUFBQUEsYUFBYSxFQUFFLEdBRFo7QUFFSEMsSUFBQUEsWUFBWSxFQUFFLENBRlg7QUFHSEMsSUFBQUEsV0FBVyxFQUFFQyxrQkFIVjtBQUlIQyxJQUFBQSxZQUFZLEVBQUU7QUFBRUMsTUFBQUEsTUFBTSxFQUFFLENBQVY7QUFBYUMsTUFBQUEsS0FBSyxFQUFFO0FBQXBCO0FBSlg7QUFKMkIsQ0FBaEIsQ0FBSCxDQUFmO2VBWWVYLFMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgeyBQbGF0Zm9ybSB9IGZyb20gJ3JlYWN0LW5hdGl2ZSc7XG5pbXBvcnQgeyBDT0xPUl9EQVJLIH0gZnJvbSAnLi9jb2xvcnMnO1xuXG5jb25zdCBlbGV2YXRpb24gPSBQbGF0Zm9ybS5zZWxlY3Qoe1xuICBhbmRyb2lkOiB7XG4gICAgZWxldmF0aW9uOiAyLFxuICB9LFxuICBpb3M6IHtcbiAgICBzaGFkb3dPcGFjaXR5OiAwLjUsXG4gICAgc2hhZG93UmFkaXVzOiAyLFxuICAgIHNoYWRvd0NvbG9yOiBDT0xPUl9EQVJLLFxuICAgIHNoYWRvd09mZnNldDogeyBoZWlnaHQ6IDEsIHdpZHRoOiAwIH0sXG4gIH1cbn0pO1xuXG5leHBvcnQgZGVmYXVsdCBlbGV2YXRpb247Il19

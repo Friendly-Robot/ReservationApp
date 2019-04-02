@@ -1,0 +1,11 @@
+53567f23553c64d4574d6476fad90b10
+function _taggedTemplateLiteralLoose(strings, raw) {
+  if (!raw) {
+    raw = strings.slice(0);
+  }
+
+  strings.raw = raw;
+  return strings;
+}
+
+module.exports = _taggedTemplateLiteralLoose;

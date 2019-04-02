@@ -1,0 +1,56 @@
+ca5602af736e5f9b0115887f7a76d9a7
+var cov_ds5ltthlg = function () {
+  var path = "/Users/andy/Desktop/Upwork/ReservationApp/src/theme/index.js";
+  var hash = "98dd3897243f069ab6e15172e8631f14878b8e30";
+
+  var Function = function () {}.constructor;
+
+  var global = new Function("return this")();
+  var gcv = "__coverage__";
+  var coverageData = {
+    path: "/Users/andy/Desktop/Upwork/ReservationApp/src/theme/index.js",
+    statementMap: {},
+    fnMap: {},
+    branchMap: {},
+    s: {},
+    f: {},
+    b: {},
+    _coverageSchema: "43e27e138ebf9cfc5966b082cf9a028302ed4184"
+  };
+  var coverage = global[gcv] || (global[gcv] = {});
+
+  if (coverage[path] && coverage[path].hash === hash) {
+    return coverage[path];
+  }
+
+  coverageData.hash = hash;
+  return coverage[path] = coverageData;
+}();
+
+var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _objectSpread2 = _interopRequireDefault(require("@babel/runtime/helpers/objectSpread"));
+
+var _borderBox = _interopRequireDefault(require("./borderBox"));
+
+var _colors = _interopRequireDefault(require("./colors"));
+
+var _constants = _interopRequireDefault(require("./constants"));
+
+var _elevation = _interopRequireDefault(require("./elevation"));
+
+var _fonts = _interopRequireDefault(require("./fonts"));
+
+var _hitSlops = _interopRequireDefault(require("./hitSlops"));
+
+var _default = (0, _objectSpread2.default)({}, _borderBox.default, _colors.default, _constants.default, {
+  elevation: _elevation.default
+}, _fonts.default, _hitSlops.default);
+
+exports.default = _default;
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImluZGV4LmpzIl0sIm5hbWVzIjpbImJvcmRlckJveCIsImNvbG9ycyIsImNvbnN0YW50cyIsImVsZXZhdGlvbiIsImZvbnRzIiwiaGl0U2xvcHMiXSwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7QUFBQTs7QUFDQTs7QUFDQTs7QUFDQTs7QUFDQTs7QUFDQTs7K0NBR0tBLGtCLEVBQ0FDLGUsRUFDQUMsa0I7QUFDSEMsRUFBQUEsU0FBUyxFQUFUQTtHQUNHQyxjLEVBQ0FDLGlCIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IGJvcmRlckJveCBmcm9tICcuL2JvcmRlckJveCc7XG5pbXBvcnQgY29sb3JzIGZyb20gJy4vY29sb3JzJztcbmltcG9ydCBjb25zdGFudHMgZnJvbSAnLi9jb25zdGFudHMnO1xuaW1wb3J0IGVsZXZhdGlvbiBmcm9tICcuL2VsZXZhdGlvbic7XG5pbXBvcnQgZm9udHMgZnJvbSAnLi9mb250cyc7XG5pbXBvcnQgaGl0U2xvcHMgZnJvbSAnLi9oaXRTbG9wcyc7XG5cbmV4cG9ydCBkZWZhdWx0IHsgXG4gIC4uLmJvcmRlckJveCxcbiAgLi4uY29sb3JzLFxuICAuLi5jb25zdGFudHMsXG4gIGVsZXZhdGlvbixcbiAgLi4uZm9udHMsXG4gIC4uLmhpdFNsb3BzLFxufVxuIl19

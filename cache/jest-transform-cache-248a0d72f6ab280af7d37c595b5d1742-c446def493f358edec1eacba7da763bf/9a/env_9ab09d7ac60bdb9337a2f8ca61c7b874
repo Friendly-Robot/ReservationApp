@@ -1,0 +1,41 @@
+d112c9ceded6a27315063b8c71fafbd4
+"use strict";
+
+var cov_1bnvicm2pr = function () {
+  var path = "/Users/andy/Desktop/Upwork/ReservationApp/src/env.js";
+  var hash = "c7e7207d56dae1eb3305f8e497411bc36b8ee893";
+
+  var Function = function () {}.constructor;
+
+  var global = new Function("return this")();
+  var gcv = "__coverage__";
+  var coverageData = {
+    path: "/Users/andy/Desktop/Upwork/ReservationApp/src/env.js",
+    statementMap: {},
+    fnMap: {},
+    branchMap: {},
+    s: {},
+    f: {},
+    b: {},
+    _coverageSchema: "43e27e138ebf9cfc5966b082cf9a028302ed4184"
+  };
+  var coverage = global[gcv] || (global[gcv] = {});
+
+  if (coverage[path] && coverage[path].hash === hash) {
+    return coverage[path];
+  }
+
+  coverageData.hash = hash;
+  return coverage[path] = coverageData;
+}();
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+var _default = {
+  version: 1,
+  graphqlURL: "https://us1.prisma.sh/public-luckox-377/reservation-graphql-backend/dev"
+};
+exports.default = _default;
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImVudi5qcyJdLCJuYW1lcyI6WyJ2ZXJzaW9uIiwiZ3JhcGhxbFVSTCJdLCJtYXBwaW5ncyI6IkFBQUE7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7ZUFFZTtBQUNiQSxFQUFBQSxPQUFPLEVBQUUsQ0FESTtBQUViQyxFQUFBQSxVQUFVLEVBQUU7QUFGQyxDIiwic291cmNlc0NvbnRlbnQiOlsiXCJ1c2Ugc3RyaWN0XCI7XG5cbmV4cG9ydCBkZWZhdWx0IHtcbiAgdmVyc2lvbjogMSxcbiAgZ3JhcGhxbFVSTDogXCJodHRwczovL3VzMS5wcmlzbWEuc2gvcHVibGljLWx1Y2tveC0zNzcvcmVzZXJ2YXRpb24tZ3JhcGhxbC1iYWNrZW5kL2RldlwiLFxufTtcbiJdfQ==

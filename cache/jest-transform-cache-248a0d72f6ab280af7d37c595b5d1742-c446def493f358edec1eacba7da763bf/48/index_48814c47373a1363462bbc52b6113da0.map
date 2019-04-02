@@ -1,0 +1,1 @@
+{"version":3,"sources":["index.js"],"names":["Reservations"],"mappings":";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;AAAA;;eAEeA,qB","sourcesContent":["import Reservations from './Reservations';\n\nexport default Reservations;\n"]}

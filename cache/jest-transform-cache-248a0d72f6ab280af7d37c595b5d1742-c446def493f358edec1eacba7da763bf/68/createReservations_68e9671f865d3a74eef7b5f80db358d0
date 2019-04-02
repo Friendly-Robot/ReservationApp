@@ -1,0 +1,67 @@
+1a83319c65b58a30b42a9a5d45cd2d07
+var cov_1ast6is5se = function () {
+  var path = "/Users/andy/Desktop/Upwork/ReservationApp/src/graphql/mutations/createReservations.js";
+  var hash = "c8aeeb4977a7ab363731bd12468a7c79938aa7b7";
+
+  var Function = function () {}.constructor;
+
+  var global = new Function("return this")();
+  var gcv = "__coverage__";
+  var coverageData = {
+    path: "/Users/andy/Desktop/Upwork/ReservationApp/src/graphql/mutations/createReservations.js",
+    statementMap: {
+      "0": {
+        start: {
+          line: 3,
+          column: 26
+        },
+        end: {
+          line: 13,
+          column: 1
+        }
+      }
+    },
+    fnMap: {},
+    branchMap: {},
+    s: {
+      "0": 0
+    },
+    f: {},
+    b: {},
+    _coverageSchema: "43e27e138ebf9cfc5966b082cf9a028302ed4184"
+  };
+  var coverage = global[gcv] || (global[gcv] = {});
+
+  if (coverage[path] && coverage[path].hash === hash) {
+    return coverage[path];
+  }
+
+  coverageData.hash = hash;
+  return coverage[path] = coverageData;
+}();
+
+var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _taggedTemplateLiteralLoose2 = _interopRequireDefault(require("@babel/runtime/helpers/taggedTemplateLiteralLoose"));
+
+var _graphqlTag = _interopRequireDefault(require("graphql-tag"));
+
+function _templateObject() {
+  var data = (0, _taggedTemplateLiteralLoose2.default)(["\n  mutation createReservation($id: ID!, $hotelName: String!, $name: String!, $arrivalDate: String!, $departureDate: String!) {\n    createReservation(data: { id: $id, hotelName: $hotelName, name: $name, arrivalDate: $arrivalDate, departureDate: $departureDate,}) {\n      id\n      hotelName\n      name\n      arrivalDate\n      departureDate\n    }\n  }\n"]);
+
+  _templateObject = function _templateObject() {
+    return data;
+  };
+
+  return data;
+}
+
+var createReservation = (cov_1ast6is5se.s[0]++, (0, _graphqlTag.default)(_templateObject()));
+var _default = createReservation;
+exports.default = _default;
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImNyZWF0ZVJlc2VydmF0aW9ucy5qcyJdLCJuYW1lcyI6WyJjcmVhdGVSZXNlcnZhdGlvbiIsImdxbCJdLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7QUFBQTs7Ozs7Ozs7Ozs7O0FBRUEsSUFBTUEsaUJBQWlCLCtCQUFHQyxtQkFBSCxxQkFBdkI7ZUFZZUQsaUIiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgZ3FsIGZyb20gJ2dyYXBocWwtdGFnJztcblxuY29uc3QgY3JlYXRlUmVzZXJ2YXRpb24gPSBncWxgXG4gIG11dGF0aW9uIGNyZWF0ZVJlc2VydmF0aW9uKCRpZDogSUQhLCAkaG90ZWxOYW1lOiBTdHJpbmchLCAkbmFtZTogU3RyaW5nISwgJGFycml2YWxEYXRlOiBTdHJpbmchLCAkZGVwYXJ0dXJlRGF0ZTogU3RyaW5nISkge1xuICAgIGNyZWF0ZVJlc2VydmF0aW9uKGRhdGE6IHsgaWQ6ICRpZCwgaG90ZWxOYW1lOiAkaG90ZWxOYW1lLCBuYW1lOiAkbmFtZSwgYXJyaXZhbERhdGU6ICRhcnJpdmFsRGF0ZSwgZGVwYXJ0dXJlRGF0ZTogJGRlcGFydHVyZURhdGUsfSkge1xuICAgICAgaWRcbiAgICAgIGhvdGVsTmFtZVxuICAgICAgbmFtZVxuICAgICAgYXJyaXZhbERhdGVcbiAgICAgIGRlcGFydHVyZURhdGVcbiAgICB9XG4gIH1cbmA7XG5cbmV4cG9ydCBkZWZhdWx0IGNyZWF0ZVJlc2VydmF0aW9uO1xuIl19

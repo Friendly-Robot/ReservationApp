@@ -1,0 +1,111 @@
+b444939f48b33b0889b997571cc61450
+var cov_1sr348eglw = function () {
+  var path = "/Users/andy/Desktop/Upwork/ReservationApp/src/App.js";
+  var hash = "23d63f174510f2721180d43d5fae376497f85f6c";
+
+  var Function = function () {}.constructor;
+
+  var global = new Function("return this")();
+  var gcv = "__coverage__";
+  var coverageData = {
+    path: "/Users/andy/Desktop/Upwork/ReservationApp/src/App.js",
+    statementMap: {
+      "0": {
+        start: {
+          line: 11,
+          column: 4
+        },
+        end: {
+          line: 11,
+          column: 28
+        }
+      }
+    },
+    fnMap: {
+      "0": {
+        name: "(anonymous_0)",
+        decl: {
+          start: {
+            line: 10,
+            column: 2
+          },
+          end: {
+            line: 10,
+            column: 3
+          }
+        },
+        loc: {
+          start: {
+            line: 10,
+            column: 11
+          },
+          end: {
+            line: 12,
+            column: 3
+          }
+        },
+        line: 10
+      }
+    },
+    branchMap: {},
+    s: {
+      "0": 0
+    },
+    f: {
+      "0": 0
+    },
+    b: {},
+    _coverageSchema: "43e27e138ebf9cfc5966b082cf9a028302ed4184"
+  };
+  var coverage = global[gcv] || (global[gcv] = {});
+
+  if (coverage[path] && coverage[path].hash === hash) {
+    return coverage[path];
+  }
+
+  coverageData.hash = hash;
+  return coverage[path] = coverageData;
+}();
+
+var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _classCallCheck2 = _interopRequireDefault(require("@babel/runtime/helpers/classCallCheck"));
+
+var _createClass2 = _interopRequireDefault(require("@babel/runtime/helpers/createClass"));
+
+var _possibleConstructorReturn2 = _interopRequireDefault(require("@babel/runtime/helpers/possibleConstructorReturn"));
+
+var _getPrototypeOf2 = _interopRequireDefault(require("@babel/runtime/helpers/getPrototypeOf"));
+
+var _inherits2 = _interopRequireDefault(require("@babel/runtime/helpers/inherits"));
+
+var _react = _interopRequireDefault(require("react"));
+
+var _reservations = _interopRequireDefault(require("./tabs/reservations"));
+
+var App = function (_ref) {
+  (0, _inherits2.default)(App, _ref);
+
+  function App() {
+    (0, _classCallCheck2.default)(this, App);
+    return (0, _possibleConstructorReturn2.default)(this, (0, _getPrototypeOf2.default)(App).apply(this, arguments));
+  }
+
+  (0, _createClass2.default)(App, [{
+    key: "render",
+    value: function render() {
+      cov_1sr348eglw.f[0]++;
+      cov_1sr348eglw.s[0]++;
+      return _react.default.createElement(_reservations.default, null);
+    }
+  }]);
+  return App;
+}((_react.default.PureComponent));
+
+exports.default = App;
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkFwcC5qcyJdLCJuYW1lcyI6WyJBcHAiLCJSZWFjdCIsIlB1cmVDb21wb25lbnQiXSwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7QUFJQTs7QUFDQTs7SUFHcUJBLEc7Ozs7Ozs7Ozs7NkJBQ1Y7QUFBQTtBQUFBO0FBQ1AsYUFBTyw2QkFBQyxxQkFBRCxPQUFQO0FBQ0Q7OztHQUg4QkMsZUFBTUMsYSIsInNvdXJjZXNDb250ZW50IjpbIi8qXG4qIEBmbG93XG4qL1xuXG5pbXBvcnQgUmVhY3QgZnJvbSAncmVhY3QnO1xuaW1wb3J0IFJlc2VydmF0aW9ucyBmcm9tICcuL3RhYnMvcmVzZXJ2YXRpb25zJztcblxudHlwZSBwcm9wcyA9IHt9O1xuZXhwb3J0IGRlZmF1bHQgY2xhc3MgQXBwIGV4dGVuZHMgUmVhY3QuUHVyZUNvbXBvbmVudDxwcm9wcz4ge1xuICByZW5kZXIoKSB7XG4gICAgcmV0dXJuIDxSZXNlcnZhdGlvbnMgLz47XG4gIH1cbn1cbiJdfQ==

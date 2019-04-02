@@ -1,0 +1,184 @@
+694996316e41c655c0ede985ed78003b
+var cov_2gbs8i9k58 = function () {
+  var path = "/Users/andy/Desktop/Upwork/ReservationApp/src/setup.js";
+  var hash = "8c3625a5b49dc7f8efada60642c8e7b411cb9825";
+
+  var Function = function () {}.constructor;
+
+  var global = new Function("return this")();
+  var gcv = "__coverage__";
+  var coverageData = {
+    path: "/Users/andy/Desktop/Upwork/ReservationApp/src/setup.js",
+    statementMap: {
+      "0": {
+        start: {
+          line: 18,
+          column: 4
+        },
+        end: {
+          line: 18,
+          column: 19
+        }
+      },
+      "1": {
+        start: {
+          line: 19,
+          column: 4
+        },
+        end: {
+          line: 21,
+          column: 7
+        }
+      },
+      "2": {
+        start: {
+          line: 25,
+          column: 4
+        },
+        end: {
+          line: 29,
+          column: 6
+        }
+      }
+    },
+    fnMap: {
+      "0": {
+        name: "(anonymous_0)",
+        decl: {
+          start: {
+            line: 17,
+            column: 2
+          },
+          end: {
+            line: 17,
+            column: 3
+          }
+        },
+        loc: {
+          start: {
+            line: 17,
+            column: 23
+          },
+          end: {
+            line: 22,
+            column: 3
+          }
+        },
+        line: 17
+      },
+      "1": {
+        name: "(anonymous_1)",
+        decl: {
+          start: {
+            line: 24,
+            column: 2
+          },
+          end: {
+            line: 24,
+            column: 3
+          }
+        },
+        loc: {
+          start: {
+            line: 24,
+            column: 11
+          },
+          end: {
+            line: 30,
+            column: 3
+          }
+        },
+        line: 24
+      }
+    },
+    branchMap: {},
+    s: {
+      "0": 0,
+      "1": 0,
+      "2": 0
+    },
+    f: {
+      "0": 0,
+      "1": 0
+    },
+    b: {},
+    _coverageSchema: "43e27e138ebf9cfc5966b082cf9a028302ed4184"
+  };
+  var coverage = global[gcv] || (global[gcv] = {});
+
+  if (coverage[path] && coverage[path].hash === hash) {
+    return coverage[path];
+  }
+
+  coverageData.hash = hash;
+  return coverage[path] = coverageData;
+}();
+
+var _interopRequireWildcard = require("@babel/runtime/helpers/interopRequireWildcard");
+
+var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _classCallCheck2 = _interopRequireDefault(require("@babel/runtime/helpers/classCallCheck"));
+
+var _createClass2 = _interopRequireDefault(require("@babel/runtime/helpers/createClass"));
+
+var _possibleConstructorReturn2 = _interopRequireDefault(require("@babel/runtime/helpers/possibleConstructorReturn"));
+
+var _getPrototypeOf3 = _interopRequireDefault(require("@babel/runtime/helpers/getPrototypeOf"));
+
+var _inherits2 = _interopRequireDefault(require("@babel/runtime/helpers/inherits"));
+
+var _react = _interopRequireWildcard(require("react"));
+
+var _reactApollo = require("react-apollo");
+
+var _apolloBoost = _interopRequireDefault(require("apollo-boost"));
+
+var _App = _interopRequireDefault(require("./App"));
+
+var _env = _interopRequireDefault(require("./env"));
+
+var Root = function (_Component) {
+  (0, _inherits2.default)(Root, _Component);
+
+  function Root() {
+    var _getPrototypeOf2;
+
+    var _this;
+
+    (0, _classCallCheck2.default)(this, Root);
+    cov_2gbs8i9k58.f[0]++;
+    cov_2gbs8i9k58.s[0]++;
+
+    for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
+      args[_key] = arguments[_key];
+    }
+
+    _this = (0, _possibleConstructorReturn2.default)(this, (_getPrototypeOf2 = (0, _getPrototypeOf3.default)(Root)).call.apply(_getPrototypeOf2, [this].concat(args)));
+    cov_2gbs8i9k58.s[1]++;
+    _this.client = new _apolloBoost.default({
+      uri: _env.default.graphqlURL
+    });
+    return _this;
+  }
+
+  (0, _createClass2.default)(Root, [{
+    key: "render",
+    value: function render() {
+      cov_2gbs8i9k58.f[1]++;
+      cov_2gbs8i9k58.s[2]++;
+      return _react.default.createElement(_reactApollo.ApolloProvider, {
+        client: this.client
+      }, _react.default.createElement(_App.default, null));
+    }
+  }]);
+  return Root;
+}(_react.Component);
+
+exports.default = Root;
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNldHVwLmpzIl0sIm5hbWVzIjpbIlJvb3QiLCJhcmdzIiwiY2xpZW50IiwiQXBvbGxvQ2xpZW50IiwidXJpIiwiZW52IiwiZ3JhcGhxbFVSTCIsIkNvbXBvbmVudCJdLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7QUFRQTs7QUFDQTs7QUFDQTs7QUFDQTs7QUFDQTs7SUFHcUJBLEk7OztBQUNuQixrQkFBcUI7QUFBQTs7QUFBQTs7QUFBQTtBQUFBO0FBQUE7O0FBQUEsc0NBQU5DLElBQU07QUFBTkEsTUFBQUEsSUFBTTtBQUFBOztBQUNuQiwrSkFBU0EsSUFBVDtBQURtQjtBQUVuQixVQUFLQyxNQUFMLEdBQWMsSUFBSUMsb0JBQUosQ0FBaUI7QUFDN0JDLE1BQUFBLEdBQUcsRUFBRUMsYUFBSUM7QUFEb0IsS0FBakIsQ0FBZDtBQUZtQjtBQUtwQjs7Ozs2QkFFUTtBQUFBO0FBQUE7QUFDUCxhQUNFLDZCQUFDLDJCQUFEO0FBQWdCLFFBQUEsTUFBTSxFQUFFLEtBQUtKO0FBQTdCLFNBQ0UsNkJBQUMsWUFBRCxPQURGLENBREY7QUFLRDs7O0VBZCtCSyxnQiIsInNvdXJjZXNDb250ZW50IjpbIi8qKlxuICogU2FtcGxlIFJlYWN0IE5hdGl2ZSBBcHBcbiAqIGh0dHBzOi8vZ2l0aHViLmNvbS9mYWNlYm9vay9yZWFjdC1uYXRpdmVcbiAqXG4gKiBAZm9ybWF0XG4gKiBAZmxvd1xuICovXG5cbmltcG9ydCBSZWFjdCwge0NvbXBvbmVudH0gZnJvbSAncmVhY3QnO1xuaW1wb3J0IHsgQXBvbGxvUHJvdmlkZXIgfSBmcm9tICdyZWFjdC1hcG9sbG8nO1xuaW1wb3J0IEFwb2xsb0NsaWVudCBmcm9tICdhcG9sbG8tYm9vc3QnO1xuaW1wb3J0IEFwcCBmcm9tICcuL0FwcCc7XG5pbXBvcnQgZW52IGZyb20gJy4vZW52JztcblxudHlwZSBQcm9wcyA9IHt9O1xuZXhwb3J0IGRlZmF1bHQgY2xhc3MgUm9vdCBleHRlbmRzIENvbXBvbmVudDxQcm9wcz4ge1xuICBjb25zdHJ1Y3RvciguLi5hcmdzKSB7XG4gICAgc3VwZXIoLi4uYXJncyk7XG4gICAgdGhpcy5jbGllbnQgPSBuZXcgQXBvbGxvQ2xpZW50KHtcbiAgICAgIHVyaTogZW52LmdyYXBocWxVUkwsXG4gICAgfSk7XG4gIH1cblxuICByZW5kZXIoKSB7XG4gICAgcmV0dXJuIChcbiAgICAgIDxBcG9sbG9Qcm92aWRlciBjbGllbnQ9e3RoaXMuY2xpZW50fT5cbiAgICAgICAgPEFwcCAvPlxuICAgICAgPC9BcG9sbG9Qcm92aWRlcj5cbiAgICApO1xuICB9XG59XG4iXX0=

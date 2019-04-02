@@ -1,0 +1,55 @@
+2ffc111062e62041316226cca30953fb
+var cov_n4z0jktm1 = function () {
+  var path = "/Users/andy/Desktop/Upwork/ReservationApp/src/theme/hitSlops.js";
+  var hash = "d2ac0c2ddb179773f1989354c9f8a14f2528e5ea";
+
+  var Function = function () {}.constructor;
+
+  var global = new Function("return this")();
+  var gcv = "__coverage__";
+  var coverageData = {
+    path: "/Users/andy/Desktop/Upwork/ReservationApp/src/theme/hitSlops.js",
+    statementMap: {},
+    fnMap: {},
+    branchMap: {},
+    s: {},
+    f: {},
+    b: {},
+    _coverageSchema: "43e27e138ebf9cfc5966b082cf9a028302ed4184"
+  };
+  var coverage = global[gcv] || (global[gcv] = {});
+
+  if (coverage[path] && coverage[path].hash === hash) {
+    return coverage[path];
+  }
+
+  coverageData.hash = hash;
+  return coverage[path] = coverageData;
+}();
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+var _default = {
+  HITSLOP_SMALL: {
+    top: 5,
+    right: 5,
+    bottom: 5,
+    left: 5
+  },
+  HITSLOP_MEDIUM: {
+    top: 10,
+    right: 10,
+    bottom: 10,
+    left: 10
+  },
+  HITSLOP_LARGE: {
+    top: 15,
+    right: 15,
+    bottom: 15,
+    left: 15
+  }
+};
+exports.default = _default;
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImhpdFNsb3BzLmpzIl0sIm5hbWVzIjpbIkhJVFNMT1BfU01BTEwiLCJ0b3AiLCJyaWdodCIsImJvdHRvbSIsImxlZnQiLCJISVRTTE9QX01FRElVTSIsIkhJVFNMT1BfTEFSR0UiXSwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O2VBQWU7QUFDYkEsRUFBQUEsYUFBYSxFQUFFO0FBQUVDLElBQUFBLEdBQUcsRUFBRSxDQUFQO0FBQVVDLElBQUFBLEtBQUssRUFBRSxDQUFqQjtBQUFvQkMsSUFBQUEsTUFBTSxFQUFFLENBQTVCO0FBQStCQyxJQUFBQSxJQUFJLEVBQUU7QUFBckMsR0FERjtBQUViQyxFQUFBQSxjQUFjLEVBQUU7QUFBRUosSUFBQUEsR0FBRyxFQUFFLEVBQVA7QUFBV0MsSUFBQUEsS0FBSyxFQUFFLEVBQWxCO0FBQXNCQyxJQUFBQSxNQUFNLEVBQUUsRUFBOUI7QUFBa0NDLElBQUFBLElBQUksRUFBRTtBQUF4QyxHQUZIO0FBR2JFLEVBQUFBLGFBQWEsRUFBRTtBQUFFTCxJQUFBQSxHQUFHLEVBQUUsRUFBUDtBQUFXQyxJQUFBQSxLQUFLLEVBQUUsRUFBbEI7QUFBc0JDLElBQUFBLE1BQU0sRUFBRSxFQUE5QjtBQUFrQ0MsSUFBQUEsSUFBSSxFQUFFO0FBQXhDO0FBSEYsQyIsInNvdXJjZXNDb250ZW50IjpbImV4cG9ydCBkZWZhdWx0IHtcbiAgSElUU0xPUF9TTUFMTDogeyB0b3A6IDUsIHJpZ2h0OiA1LCBib3R0b206IDUsIGxlZnQ6IDUgfSxcbiAgSElUU0xPUF9NRURJVU06IHsgdG9wOiAxMCwgcmlnaHQ6IDEwLCBib3R0b206IDEwLCBsZWZ0OiAxMCB9LFxuICBISVRTTE9QX0xBUkdFOiB7IHRvcDogMTUsIHJpZ2h0OiAxNSwgYm90dG9tOiAxNSwgbGVmdDogMTUgfSxcbn1cbiJdfQ==

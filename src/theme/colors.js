@@ -1,6 +1,6 @@
 export default {
-  PRIMARY_COLOR: 'rgb(30, 147, 242)',
-  SECONDARY_COLOR: 'rgb(238, 167, 2)',
-  WHITE_COLOR: 'rgb(255, 255, 255)',
-  DARK_COLOR: 'rgb(35, 40, 45)',
+  COLOR_PRIMARY: 'rgb(30, 147, 242)',
+  COLOR_SECONDARY: 'rgb(238, 167, 2)',
+  COLOR_WHITE: 'rgb(255, 255, 255)',
+  COLOR_DARK: 'rgb(35, 40, 45)',
 }

@@ -132,7 +132,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:/Users/andy/Desktop/Upwork/ReservationApp/src/tabs/reservations/Reservations.js
+SF:/Users/andy/Desktop/Upwork/ReservationApp/src/screens/reservations/Reservations.js
 FN:29,(anonymous_0)
 FN:35,(anonymous_1)
 FN:48,(anonymous_2)
@@ -165,7 +165,7 @@ BRF:6
 BRH:0
 end_of_record
 TN:
-SF:/Users/andy/Desktop/Upwork/ReservationApp/src/tabs/reservations/ReservationsHeader.js
+SF:/Users/andy/Desktop/Upwork/ReservationApp/src/screens/reservations/ReservationsHeader.js
 FN:15,(anonymous_0)
 FNF:1
 FNH:1
@@ -179,7 +179,7 @@ BRF:1
 BRH:1
 end_of_record
 TN:
-SF:/Users/andy/Desktop/Upwork/ReservationApp/src/tabs/reservations/ReservationsList.js
+SF:/Users/andy/Desktop/Upwork/ReservationApp/src/screens/reservations/ReservationsList.js
 FN:19,(anonymous_0)
 FN:19,(anonymous_1)
 FN:22,(anonymous_2)
@@ -208,7 +208,7 @@ BRF:6
 BRH:4
 end_of_record
 TN:
-SF:/Users/andy/Desktop/Upwork/ReservationApp/src/tabs/reservations/ReservationsListItem.js
+SF:/Users/andy/Desktop/Upwork/ReservationApp/src/screens/reservations/ReservationsListItem.js
 FN:14,(anonymous_0)
 FN:21,(anonymous_1)
 FNF:2
@@ -229,7 +229,7 @@ BRF:3
 BRH:1
 end_of_record
 TN:
-SF:/Users/andy/Desktop/Upwork/ReservationApp/src/tabs/reservations/ReservationsScheduler.js
+SF:/Users/andy/Desktop/Upwork/ReservationApp/src/screens/reservations/ReservationsScheduler.js
 FN:22,(anonymous_0)
 FN:22,(anonymous_1)
 FN:47,(anonymous_2)
@@ -275,7 +275,7 @@ BRF:9
 BRH:4
 end_of_record
 TN:
-SF:/Users/andy/Desktop/Upwork/ReservationApp/src/tabs/reservations/sortReservations.js
+SF:/Users/andy/Desktop/Upwork/ReservationApp/src/screens/reservations/sortReservations.js
 FN:6,(anonymous_0)
 FN:6,(anonymous_1)
 FN:8,(anonymous_2)

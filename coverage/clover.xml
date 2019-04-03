@@ -60,7 +60,7 @@
     </package>
     <package name="tabs.reservations">
       <metrics statements="72" coveredstatements="55" conditionals="41" coveredconditionals="21" methods="21" coveredmethods="10"/>
-      <file name="Reservations.js" path="/Users/andy/Desktop/Upwork/ReservationApp/src/tabs/reservations/Reservations.js">
+      <file name="Reservations.js" path="/Users/andy/Desktop/Upwork/ReservationApp/src/screens/reservations/Reservations.js">
         <metrics statements="12" coveredstatements="3" conditionals="6" coveredconditionals="0" methods="3" coveredmethods="0"/>
         <line num="20" count="1" type="stmt"/>
         <line num="29" count="1" type="stmt"/>
@@ -75,12 +75,12 @@
         <line num="51" count="0" type="stmt"/>
         <line num="59" count="1" type="stmt"/>
       </file>
-      <file name="ReservationsHeader.js" path="/Users/andy/Desktop/Upwork/ReservationApp/src/tabs/reservations/ReservationsHeader.js">
+      <file name="ReservationsHeader.js" path="/Users/andy/Desktop/Upwork/ReservationApp/src/screens/reservations/ReservationsHeader.js">
         <metrics statements="2" coveredstatements="2" conditionals="1" coveredconditionals="1" methods="1" coveredmethods="1"/>
         <line num="16" count="2" type="stmt"/>
         <line num="22" count="3" type="stmt"/>
       </file>
-      <file name="ReservationsList.js" path="/Users/andy/Desktop/Upwork/ReservationApp/src/tabs/reservations/ReservationsList.js">
+      <file name="ReservationsList.js" path="/Users/andy/Desktop/Upwork/ReservationApp/src/screens/reservations/ReservationsList.js">
         <metrics statements="6" coveredstatements="5" conditionals="6" coveredconditionals="4" methods="4" coveredmethods="2"/>
         <line num="20" count="5" type="stmt"/>
         <line num="22" count="0" type="stmt"/>
@@ -89,7 +89,7 @@
         <line num="27" count="4" type="stmt"/>
         <line num="38" count="2" type="stmt"/>
       </file>
-      <file name="ReservationsListItem.js" path="/Users/andy/Desktop/Upwork/ReservationApp/src/tabs/reservations/ReservationsListItem.js">
+      <file name="ReservationsListItem.js" path="/Users/andy/Desktop/Upwork/ReservationApp/src/screens/reservations/ReservationsListItem.js">
         <metrics statements="5" coveredstatements="2" conditionals="3" coveredconditionals="1" methods="2" coveredmethods="1"/>
         <line num="15" count="4" type="cond" truecount="1" falsecount="1"/>
         <line num="16" count="0" type="stmt"/>
@@ -97,7 +97,7 @@
         <line num="22" count="0" type="stmt"/>
         <line num="37" count="3" type="stmt"/>
       </file>
-      <file name="ReservationsScheduler.js" path="/Users/andy/Desktop/Upwork/ReservationApp/src/tabs/reservations/ReservationsScheduler.js">
+      <file name="ReservationsScheduler.js" path="/Users/andy/Desktop/Upwork/ReservationApp/src/screens/reservations/ReservationsScheduler.js">
         <metrics statements="16" coveredstatements="12" conditionals="9" coveredconditionals="4" methods="6" coveredmethods="2"/>
         <line num="23" count="3" type="stmt"/>
         <line num="24" count="3" type="stmt"/>
@@ -116,7 +116,7 @@
         <line num="91" count="0" type="stmt"/>
         <line num="101" count="2" type="stmt"/>
       </file>
-      <file name="sortReservations.js" path="/Users/andy/Desktop/Upwork/ReservationApp/src/tabs/reservations/sortReservations.js">
+      <file name="sortReservations.js" path="/Users/andy/Desktop/Upwork/ReservationApp/src/screens/reservations/sortReservations.js">
         <metrics statements="31" coveredstatements="31" conditionals="16" coveredconditionals="11" methods="5" coveredmethods="4"/>
         <line num="7" count="1" type="stmt"/>
         <line num="8" count="1" type="stmt"/>

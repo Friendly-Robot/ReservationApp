@@ -86,7 +86,7 @@ var _inherits2 = _interopRequireDefault(require("@babel/runtime/helpers/inherits
 
 var _react = _interopRequireDefault(require("react"));
 
-var _reservations = _interopRequireDefault(require("./tabs/reservations"));
+var _reservations = _interopRequireDefault(require("./screens/reservations"));
 
 var App = function (_ref) {
   (0, _inherits2.default)(App, _ref);

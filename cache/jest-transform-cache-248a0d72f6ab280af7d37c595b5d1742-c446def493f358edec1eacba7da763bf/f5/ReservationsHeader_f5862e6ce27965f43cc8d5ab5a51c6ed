@@ -1,6 +1,6 @@
 ad8057f04318fd6eeb43504e5e082ac1
 var cov_1mfv9fd1c2 = function () {
-  var path = "/Users/andy/Desktop/Upwork/ReservationApp/src/tabs/reservations/ReservationsHeader.js";
+  var path = "/Users/andy/Desktop/Upwork/ReservationApp/src/screens/reservations/ReservationsHeader.js";
   var hash = "54b1890aa94091bebb3c7f4b08443b0316e7d3c7";
 
   var Function = function () {}.constructor;
@@ -8,7 +8,7 @@ var cov_1mfv9fd1c2 = function () {
   var global = new Function("return this")();
   var gcv = "__coverage__";
   var coverageData = {
-    path: "/Users/andy/Desktop/Upwork/ReservationApp/src/tabs/reservations/ReservationsHeader.js",
+    path: "/Users/andy/Desktop/Upwork/ReservationApp/src/screens/reservations/ReservationsHeader.js",
     statementMap: {
       "0": {
         start: {

@@ -1,7 +1,7 @@
 # ReservationApp :earth_americas:
 
 ## Architecture
-This application is organized by a component / responsibility hierarchical architecture design: <br>
+This application is designed with modularity in mind to closely resemble a multitier architecture system. The front end view components are distributed across screens and components whereas the data layer is decoupled into its own graphql directory. As the application grows in size, a mediator and facade system would greatly benefit the scalability moving forward by provisioning the basis for communication between distributed components without cross dependencies and also securing the application by allowing/restricting communication access based upon the authority of the caller.<br>
 
 All shared components are designed for optimal reusability and resides in the `common` directory. <br>
 Screen components contain all its dependent components within its own self-describing directory; i.e., `reservations` contains all the components specifically relevant to its screen and none else. <br>

@@ -18,7 +18,7 @@ Unit tests are contained in their respective parent directories as well as their
 `npm install`
 
 ### Install the application
-`react-native run-ios`
+`react-native run-ios` <br>
 `react-native run-android`
 
 ## License

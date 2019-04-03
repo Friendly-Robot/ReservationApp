@@ -19,7 +19,7 @@ type props = {
   closeModal: Function,
 };
 
-export default ReservationsScheduler = ({ closeModal = () => {} }: props) => {
+export default ({ closeModal = () => {} }: props) => {
   const [name, setName] = useState('');
   const [hotel, setHotel] = useState('');
   const [arrival, setArrival] = useState('');

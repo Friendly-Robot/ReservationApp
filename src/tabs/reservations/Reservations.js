@@ -23,7 +23,7 @@ const dataValues = {
 };
 
 type props = {
-  data: dataValues,
+  data: typeof dataValues,
 };
 
 const Reservations = ({ data }: props) => {

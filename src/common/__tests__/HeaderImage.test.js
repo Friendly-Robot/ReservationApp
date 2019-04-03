@@ -9,7 +9,13 @@ import HeaderImage from '../HeaderImage';
 // Note: test renderer must be required after react-native.
 import renderer from 'react-test-renderer';
 
-it('renders correctly', () => {
-  const tree = renderer.create(<HeaderImage />).toJSON();
-  expect(tree).toMatchSnapshot();
-});
+describe('<HeaderImage />', () => {
+  it('should be defined', () => {
+    expect(HeaderImage).toBeDefined();
+  });
+
+  it('renders correctly', () => {
+    const tree = renderer.create(<HeaderImage />).toJSON();
+    expect(tree).toMatchSnapshot();
+  });
+})

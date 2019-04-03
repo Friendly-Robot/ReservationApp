@@ -8,10 +8,10 @@ import { StyleSheet, Text, View } from 'react-native';
 import theme from '../../theme';
 
 type ItemProps = {
-  reservations: Array<T>,
+  reservations: Array<Object>,
 };
 
-export default ReservationsListItem = ({ reservations = [] }: ItemProps) => {
+export default ({ reservations = [] }: ItemProps) => {
   if (reservations[0].__typename !== 'Reservation') return null;
   const hotelName = reservations[0].hotelName;
   return (

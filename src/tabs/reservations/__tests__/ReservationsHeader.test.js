@@ -4,18 +4,18 @@
 
 import 'react-native';
 import React from 'react';
-import InputRegular from '../InputRegular';
+import ReservationsHeader from '../ReservationsHeader';
 
 // Note: test renderer must be required after react-native.
 import renderer from 'react-test-renderer';
 
-describe('<InputRegular />', () => {
+describe('<ReservationsHeader />', () => {
   it('should be defined', () => {
-    expect(InputRegular).toBeDefined();
+    expect(ReservationsHeader).toBeDefined();
   });
 
   it('renders correctly', () => {
-    const tree = renderer.create(<InputRegular />).toJSON();
+    const tree = renderer.create(<ReservationsHeader />).toJSON();
     expect(tree).toMatchSnapshot();
   });
 })

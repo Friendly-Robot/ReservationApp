@@ -12,11 +12,11 @@ import ButtonAction from '../../common/ButtonActionRound';
 import theme from '../../theme';
 
 type listProps = {
-  hotels: Array<T>,
+  hotels: Array<Array<Object>>,
   setShowScheduler: Function,
 };
 
-export default ReservationsList = ({hotels = [], setShowScheduler = () => {}}: listProps) => (
+export default ({hotels = [], setShowScheduler = () => {}}: listProps) => (
   <View style={styles.container}>
     <ReservationsHeader title={'Reservations'} />
     <ButtonAction onPress={() => setShowScheduler(true)} />

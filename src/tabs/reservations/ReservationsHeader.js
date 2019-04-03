@@ -12,7 +12,7 @@ type props = {
   title: string,
 };
 
-export default ReservationsHeader = ({title = 'Reservations'}: props) => (
+export default ({title = 'Reservations'}: props) => (
   <View style={styles.absolute}>
     <HeaderTitle title={title} />
     <HeaderImage />

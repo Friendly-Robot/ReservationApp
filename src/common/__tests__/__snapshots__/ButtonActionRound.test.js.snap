@@ -1,5 +1,59 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`<ButtonActionRound /> renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "transparent",
+      "bottom": 25,
+      "position": "absolute",
+      "right": 15,
+      "zIndex": 10,
+    }
+  }
+>
+  <View
+    accessible={true}
+    isTVSelectable={true}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "rgb(30, 147, 242)",
+        "borderRadius": 1000,
+        "height": 50,
+        "justifyContent": "center",
+        "opacity": 1,
+        "shadowColor": undefined,
+        "shadowOffset": Object {
+          "height": 1,
+          "width": 0,
+        },
+        "shadowOpacity": 0.5,
+        "shadowRadius": 2,
+        "width": 50,
+      }
+    }
+  >
+    <Text
+      style={
+        Object {
+          "color": "rgb(255, 255, 255)",
+          "fontSize": 35,
+        }
+      }
+    >
+      +
+    </Text>
+  </View>
+</View>
+`;
+
 exports[`renders correctly 1`] = `
 <View
   style={

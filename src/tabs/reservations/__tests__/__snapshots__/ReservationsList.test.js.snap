@@ -1,0 +1,143 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ReservationsList /> renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "rgb(255, 255, 255)",
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "left": 0,
+        "position": "absolute",
+        "right": 0,
+        "top": 0,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "rgb(255, 255, 255)",
+          "flexDirection": "row",
+          "height": 65,
+          "zIndex": 10,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "rgb(30, 147, 242)",
+            "fontSize": 16,
+            "marginLeft": 15,
+          }
+        }
+      >
+        Reservations
+      </Text>
+    </View>
+    <View
+      accessibilityIgnoresInvertColors={true}
+      style={
+        Object {
+          "height": 150,
+          "width": 750,
+          "zIndex": 2,
+        }
+      }
+    >
+      <Image
+        source={
+          Object {
+            "testUri": "../../../src/common/img/hotel-front-desk.jpeg",
+          }
+        }
+        style={
+          Array [
+            Object {
+              "bottom": 0,
+              "left": 0,
+              "position": "absolute",
+              "right": 0,
+              "top": 0,
+            },
+            Object {
+              "height": 150,
+              "width": 750,
+            },
+            undefined,
+          ]
+        }
+      />
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "backgroundColor": "transparent",
+        "bottom": 25,
+        "position": "absolute",
+        "right": 15,
+        "zIndex": 10,
+      }
+    }
+  >
+    <View
+      accessible={true}
+      isTVSelectable={true}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "rgb(30, 147, 242)",
+          "borderRadius": 1000,
+          "height": 50,
+          "justifyContent": "center",
+          "opacity": 1,
+          "shadowColor": undefined,
+          "shadowOffset": Object {
+            "height": 1,
+            "width": 0,
+          },
+          "shadowOpacity": 0.5,
+          "shadowRadius": 2,
+          "width": 50,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "rgb(255, 255, 255)",
+            "fontSize": 35,
+          }
+        }
+      >
+        +
+      </Text>
+    </View>
+  </View>
+  <RCTScrollView
+    contentContainerStyle={
+      Object {
+        "flexGrow": 1,
+        "marginTop": 215,
+        "paddingBottom": 215,
+      }
+    }
+  >
+    <View />
+  </RCTScrollView>
+</View>
+`;

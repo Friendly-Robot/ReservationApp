@@ -8,12 +8,12 @@ import { StyleSheet, Text, TouchableOpacity, View } from 'react-native';
 import theme from '../theme';
 
 type titleProps = {
-  buttonPress: Function,
-  buttonValue: string,
+  buttonPress?: Function,
+  buttonValue?: string,
   title: string,
 };
 
-export default HeaderTitle = ({ buttonPress = () => {}, buttonValue = '', title = '' }) => (
+export default ({ buttonPress = () => {}, buttonValue = '', title = '' }: titleProps) => (
   <View style={styles.container}>
     {Boolean(buttonValue) &&
       <TouchableOpacity

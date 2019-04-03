@@ -13,4 +13,7 @@ module.exports = {
   transformIgnorePatterns: [
     "/node_modules/(?!react-native|react-clone-referenced-element|react-navigation)"
   ],
+  setupFilesAfterEnv: [
+    "./setupTests.js"
+  ],
 };

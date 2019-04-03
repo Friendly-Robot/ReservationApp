@@ -10,7 +10,7 @@ The main entry file can be traced from `<root>/index.js` to `<root>/src/setup.js
 
 Unit tests are contained in their respective parent directories as well as their `snapshots` for future coverage reports. Extra care should be taken before running `npm run test:update` to update snapshots - this happens too easily and can mask bad commits if not thoroughly checked before overwriting. <br>
 
-Graphql queries and mutations are staged respectively within the `graphql` folder within the `src` directory. Each graphql action is named accordingly by its file name and documented within. Their responsibilities should inherently be readable and understandable from a high level and traceable to its origin from within components by following naming standards.
+Graphql queries and mutations are staged respectively within the `graphql` folder within the `src` directory. Each graphql action is named accordingly by its file name and documented within. Their responsibilities should inherently be readable and understandable from a high level and traceable to its origin from within components by following naming conventions.
 
 ## Installation
 ### Clone the repo
